@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>{{ pageTitle }}</title>
+	<link rel="home" href="{{ siteUrl }}" />
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+	<meta name="theme-color" content="#6AF0B0">
+	<link rel="manifest" href="/site.webmanifest">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/png; charset=binary">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+
+	<meta name="description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}"/>
+	<meta name="author" content="Mike Street">
+
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:site" content="@mikestreety">
+	<meta property="twitter:creator" content="@mikestreety">
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" property="twitter:title" content="{{ pageTitle }}">
+	<meta property="og:url" content="{{ siteUrl }}{{ craft.app.request.pathInfo }}">
+	<meta property="og:site_name" content="{{ seoTitle }}">
+	<meta property="og:title" content="{{ pageTitle }}">
+	{% if socialMediaPhoto is defined  %}
+	<meta property="og:image" property="twitter:image" name="image" content="{{ siteUrl | trim('/') }}{{ socialMediaPhoto.getUrl() }}">
+	<meta property="og:image:width" content="1300">
+	<meta property="og:image:height" content="650">
+	{% else %}
+	<meta property="og:image" property="twitter:image" name="image" content="https://www.behindthesource.co.uk/uploads/social-media/bts-social.png">
+	{% endif %}
+	<meta property="og:description" property="twitter:description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}">
+
+	<link rel="stylesheet" href="{{ mix('css/style.css') }}">
+
+	<!-- Matomo -->
+	<script type="text/javascript">
+	document.documentElement.className+=' hasJs';
+	var _paq = window._paq || [];
+	/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	(function() {
+		var u="https://analytics.mikestreety.co.uk/";
+		_paq.push(['setTrackerUrl', u+'matomo.php']);
+		_paq.push(['setSiteId', '6']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	})();
+
+	// if ('serviceWorker' in navigator) {
+	// 	navigator.serviceWorker.register('/sw.js');
+	// }
+	</script>
+</head>
+
+<body {% if bodyclass is defined %}class="{{ bodyclass }}"{% endif %}>
+	<div  itemscope itemtype="http://schema.org/Periodical">
+
+		<div class="page">
+
+			<header class="header">
+				<a href="/" class="logo" itemprop="name">
+					B<span>ehind the Source</span>
+				</a>
+
+				<nav class="menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+					<meta itemprop="name" content="Navigation Menu">
+					<ul>
+						<li class="hasChildren">
+							<a itemprop="url" href="{{ url('about') }}">About</a>
+							<ul itemscope itemtype="http://schema.org/SiteNavigationElement" class="subNav">
+								<li><a itemprop="url" href="{{ url('about') }}" {% if craft.app.request.segments|first == 'about' %}class="active"{% endif %}>About</a></li>
+								<li><a itemprop="url" href="{{ url('process') }}" {% if craft.app.request.segments|first == 'process' %}class="active"{% endif %}>The interview process</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<main class="content">
+				{% block content %}
+				{% endblock %}
+			</main>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<p><a href="/rss">Subscribe to RSS</a> | <a href="/signup">Sign up to the newsletter</a></p>
+				<p>Copyright {{ now|date('Y') }} <a href="https://www.mikestreety.co.uk/">Mike Street</a>. </p>
+			</div>
+		</footer>
+
+		<div class="isHidden">
+			<meta itemprop="about" content="{{ website.seoStrapline }}">
+			<meta itemprop="abstract" content="{{ website.seoDescription }}">
+			<meta itemprop="accessMode" content="visual">
+			<div itemprop="accountablePerson author copyrightHolder creator maintainer" itemscope itemtype="http://schema.org/Person">
+				<meta itemprop="name" content="Mike Street">
+				<meta itemprop="url" content="http://www.mikestreety.co.uk">
+				<meta itemprop="sameAs" content="https://twitter.com/mikestreety">
+				<meta itemprop="sameAs" content="https://www.instagram.com/mikestreety/">
+			</div>
+		</div>
+	</div>
+	<script src="{{ mix('js/app.js') }}"></script>
+</body>
+</html>
