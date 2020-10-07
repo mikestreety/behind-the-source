@@ -1,0 +1,10 @@
+---
+layout: default.njk
+---
+{% block content %}
+
+	<h1>{{ title }}</h1>
+	<div class="intro">{{ intro }}</div>
+    
+    {{ content | safe }}
+{% endblock %}
