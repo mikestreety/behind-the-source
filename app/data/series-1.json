@@ -1,0 +1,929 @@
+[
+    {
+        "postDate": "2020-07-27",
+        "title": "S01E08",
+        "slug": "s01e08-cassidy-williams",
+        "heading": "I love how fast the industry moves. It’s kind of a joke to everyone how many frameworks there are but it’s great to see all of the opportunities to learn",
+        "intro": "<p>Cassidy is the absolute boss when it comes to making web dev memes, newsletters and jokes (there is one in every <a href=\"https://cassidoo.co/newsletter/\">rendezvous</a> email). I was super stoked when she agreed to answer my questions and it's great to read about how she got where she is.</p>",
+        "intervieweeName": "Cassidy Williams",
+        "intervieweeSocial": [
+            {
+                "type": "website",
+                "fields": {
+                    "socialurl": "https://cassidoo.co/",
+                    "displayUrl": "cassidoo.co"
+                }
+            },
+            {
+                "type": "website",
+                "fields": {
+                    "socialurl": "https://cassidoo.co/newsletter",
+                    "displayUrl": "cassidoo.co/newsletter"
+                }
+            },
+            {
+                "type": "twitter",
+                "fields": {
+                    "socialusername": "@cassidoo"
+                }
+            },
+            {
+                "type": "github",
+                "fields": {
+                    "socialusername": "cassidoo"
+                }
+            },
+            {
+                "type": "website",
+                "fields": {
+                    "socialurl": "https://www.netlify.com/?utm_source=behindthesource&utm_medium=interview-cs&utm_campaign=devex",
+                    "displayUrl": "Netlify"
+                }
+            }
+        ],
+        "body": [
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your job title (and feel free to talk about where you work)? What does your average day look like?",
+                    "answer": "<p>I’m a Principal Developer Experience Engineer at Netlify! Netlify is an amazing place to work. I’ve only been there a short while (I’m writing this after only day 2 on the job), but the team is incredibly smart and kind. My average day includes some meetings, and then building things that make the experience for developers (hence the title) better on Netlify. This can be code, blog posts, webinars, live-streams, conference talks… all sorts of things!</p>\n<p><em>[Mike: What do you do in your spare time? Do you code?]</em></p>\n<p>I do code in my spare time! I also play music (my husband and I have been involved in a few bands and orchestras in Seattle), play video games, build keyboards, and laser cut + 3D print things for fun.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "Developer advocates help developers be successful with a given platform"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "How did you get where you are today? What is your educational background? How many jobs have you had?",
+                    "answer": "<p>I’ve had quite a few jobs. I’ve worked at small companies like CodePen and Venmo (back when it was small), and larger ones like Amazon. Netlify is a nice middle ground! </p>\n<p>I got my computer science degree from Iowa State University, and self-taught myself web development. </p>\n<p><em>[Mike: What drew you to web development?]</em></p>\n<p>I first learned HTML/CSS/JS when I was a young teenager when I was exploring how to make websites. I loved the idea of building something out of nothing, and that feeling has stuck ever since!</p>\n<p>I started as a back-end engineer and developer advocate at Venmo out of school, and switched over to front-end while I was there, and then kind of switched between engineering roles and developer advocacy roles throughout my career!</p>\n<p><em>[Mike: What is a developer advocate? What do they do?]</em></p>\n<p>Developer advocates help developers be successful with a given platform, technology, or API. That involves making tutorials, blog posts, talks, and more to help them have a good developer experience.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your tech stack? What languages do you use? What are your projects built with? Do you interact with servers, if so, what kind? What do you develop on/with?",
+                    "answer": "<p>I’ve built with a bunch of different things, but my current favourite is React. I’ve been using it since 2014 and it’s gone through a lot of changes, but I love it! I don’t really do the server side of things. That’s actually what I love about Netlify, it has a lot of different technologies (that work with the <a href=\"https://jamstack.org/\">Jamstack</a>) so that I don’t have to touch them!</p>\n<p><em>[Mike: Are you a SCSS or CSS (or LESS) kind of person? Mac or PC?]</em></p>\n<p>I like SCSS purely for the nesting and mixins. I stick to vanilla CSS until I need those extra features. I have a desktop PC at home, and use a Mac for work!</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I love the company culture, and the creativity I get to use"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about your job?",
+                    "answer": "<p>I love the company culture, and the creativity I get to use when building new tools and projects!</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What could be better?",
+                    "answer": "<p>Hard to say since I’m pretty new there. The culture at Netlify is great. I admit I have been getting used to it (I’ve worked at such small companies in recent years of less than 10 people, and Netlify is over 100!), but they do amazing work for the developer community, and my coworkers are awesome.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "The industry could always be more inclusive"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about the web industry?",
+                    "answer": "<p>I love how fast it moves. It’s kind of a joke to everyone how many frameworks and libraries are out there, but it’s great to see all of the new things that come out and opportunities to learn!</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What are your frustrations with the industry?",
+                    "answer": "<p>The industry could always be more inclusive. We are doing better day-by-day, but it’s something that definitely could be improved.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I should have listened to my gut more often"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
+                    "answer": "<p>Honestly, not really. I’m happy where I am, and I’ve learned a lot along the way that has shaped who I’ve become!</p>\n<p><em>[Mike: Would you still work for the companies you’ve worked for? Or do you regret any jobs?]</em><br /><br />I don’t regret the work I’ve done or the places I’ve worked for, but I will say that I should have listened to my gut more often. There have been some times where I should have stayed longer, or left sooner, than I did. But, if anything, the lessons I’ve learned are to communicate more, and learn whenever I can!</p>"
+                }
+            }
+        ]
+    },
+    {
+        "postDate": "2020-07-20",
+        "title": "S01E07",
+        "slug": "s01e07-matt-stow",
+        "heading": "I love how sharing the industry is. So many people freely give away their knowledge, learnings and code for practically anyone else to use.",
+        "intro": "<p>Matt is one of those elusive people on Twitter I have followed for ages, never really engaged with but have always enjoyed the mix of tweets about web dev and his daughter. He seems to follow and talk to a lot of people I follow and talk to, so it only seemed natural when he reached out about being involved in this project. I've found it rare to find a \"real-life\" picture of Matt, so when I saw the one above I realised he looked nothing like I imagined.</p>",
+        "intervieweeName": "Matt Stow",
+        "intervieweeSocial": [
+            {
+                "type": "twitter",
+                "fields": {
+                    "socialusername": "@stowball"
+                }
+            },
+            {
+                "type": "github",
+                "fields": {
+                    "socialusername": "stowball"
+                }
+            }
+        ],
+        "body": [
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your job title (and feel free to talk about where you work)?",
+                    "answer": "<p><strong>UX Engineering Architecture</strong> at <a href=\"https://hireup.com.au/\">Hireup</a>, Australia where we help people with disability find and manage support workers.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "How did you get where you are today? What is your education background? How many jobs have you had?",
+                    "answer": "<p>I have been interested in computers and programming for as long as I can remember: I was 7 when my parents bought the family a ZX Spectrum +2 which I began programming on by copying code from magazines. I continued programming as a hobby on the Acorn Archimedes, Amiga and then PC, while also dabbling in graphics software to satiate my love of design too. I modded (before modding was a thing) games like 1991’s Manchester United Europe to replace them with my preferred team, Wolverhampton Wanderers &#x1f604;<br /><br />It was 1996 when I finished secondary school, and during that time was given many opportunities to use the Internet over a 28.8Kbps dial-up connection. For the next 2 years at college, I studied a general Information Systems course which introduced me to a lot of different technologies and domains, but it was the Human Computer Interfaces module, where I built an interactive, web-based dinosaur encyclopaedia, that really set my heart alight: the web was the perfect hybrid of allowing me to embrace coding and design/UI at the same time.</p>\n<p>After leaving college, I couldn’t find a developer job so quickly rose up the ranks in a pie factory, before going to Australia for a little while. When I returned, I saw an ad at a local online travel agency (think early Expedia), so I offered to volunteer my time to learn the ropes in a professional setting. I took in a portfolio of things I’d built on the web, and they offered me a job straight away! I stayed there for a year or so, before I had enough of flagrantly plagiarising other people’s work, and left to teach basic computer literacy to the elderly and people looking for work (thinking “being a tutor” may look better on my CV since I wanted to emigrate to Australia).</p>\n<p>I stopped being a tutor after a year, and became a web developer at Stanley Gibbons, a market leader in philately (all things stamp related). I was in a team of 2, with my colleague handling the ASP, and me building all of the HTML and CSS and JavaScript. We did some pretty cool stuff for 2004, like building an online stamp portfolio management system.</p>\n<p>I moved to Australia in 2006, and immediately contracted to one of the largest media publishers as the sole front-end developer in a small team tasked with rebuilding all of their flagship websites to… remove their content. They were unfortunately putting all their eggs in a Macromedia Flex paywall basket, and let’s just say it (luckily) didn’t go as planned.</p>\n<p>After 6 months of daily, 6 hour round trip commutes nearly killing me, I found a senior Front-End Developer job in a local, “technical” agency. I spent 9 years leading the front-end direction of the team, building things for all sorts of clients: small business, banks, local and national government, which is where I learned to embrace the importance of web accessibility.</p>\n<p>After working with or for everyone in my hometown of Newcastle, I decided to try the bigger Sydney market. I had a short, toxic stint at a famous Australian email marketing company, then had a great time at a leading sports publisher learning React and functional programming along the way. I then went headfirst into working remotely for a company in California, before doing 2 years remotely leading the front-end team at a national sporting body to rebuild all 19 websites and 38 apps.</p>\n<p>As mentioned earlier, I’m now the UX Engineering Architect at Hireup, a for-purpose startup that is helping to build a more inclusive community. Here, I remotely lead the direction of the UI engineering and the user experiences we build for all users, regardless of their ability.</p>\n"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I'm really excited by what’s coming in v3 of Vue.js"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your tech stack? What languages do you use? What are your projects built with? Do you interact with servers, if so, what kind? What do you develop on/with?",
+                    "answer": "<p>For the last 3 years, my favourite front-end framework has been Vue.js, and I don’t see that changing any time soon; I'm really excited by what’s coming in v3. Vue is just easy to learn, feature-rich and flexible enough to perform in many different environments.</p>\n<p>After writing CSS for nearly 20 years and creating many frameworks along the way, I’m now heavily into atomic CSS; writing yet another framework that we use and love at work.</p>\n<p>I’ve been a Mac user for 4 years (although I customise it to make some things more Windows-like… thank you uBar, Contexts and Spectacle!) and my preferred editor is Atom, which I’ve heavily customised as well. I’ve tried VS Code many times, but I just can’t get on-board with it. I’m not sure what the future holds since technically Microsoft owns both, but I will hold on to Atom for as long as humanly possible.</p>\n<p>I’m big into Design Systems and component libraries. Creating consistent experiences for our users is obviously a massive benefit, but setting structure around the way we design and build things also heavily benefits our Design and Engineering teams.</p>\n"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about your job?",
+                    "answer": "<p>I love that I can finally fulfil my passion for creating accessible experiences in an environment that fully requires it, and that we’re baking accessibility into all of the components and features we build. It’s amazing that I’ve now managed to create an army of engineers and colleagues that actively focus on accessibility, unlike in all my previous roles where I’d only manage to convince a couple of people that providing basic human rights for all users is a baseline requirement of our jobs.</p><p>It’s also nice that I seem to have garnered a lot of respect from my peers.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I love that I can finally fulfil my passion for creating accessible experiences in an environment that fully requires it"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What could be better?",
+                    "answer": "<p>Being a startup, we’re experiencing a few growing pains as the team scales, and being one of only a few remote employees in a less-experienced team can sometimes be a bit of a challenge. Nothing is insurmountable though, and we’re hiring great people and making progress to solve our pain points.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I also wish developers learned that we’re the unique ones on the web, and the world is full of millions of people unlike us"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about the web industry?",
+                    "answer": "<p>I love how sharing the industry is. So many people freely give away their knowledge, learnings and code for practically anyone else to use. For this reason, I also like to give back, and when I find the time, write blog posts, present at meetups and create open source libraries that hopefully solve others’ problems like they do mine. But mostly, I just read Twitter &#x1f600;</p>\n"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What are your frustrations with the industry?",
+                    "answer": "<p>We seem to forget the learnings of the past, and the foundational pieces that everybody should know are frighteningly absent in many engineers today. We really need to take a step back and actually learn what powers the web: semantic HTML, and I hope we soon realise that JavaScript is not the answer to every problem we have.</p>\n<p>I also wish developers learned that we’re the unique ones on the web, and the world is full of millions of people unlike us, be it with motor deficiencies, learning difficulties or vision impairments, and to empathise with and cater for them appropriately.</p>\n"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "As much as I’d like to fill in the blanks, the areas I’m specialising in are still rapidly changing which keeps very busy enough as it is."
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
+                    "answer": "<p>I wish I’d been less self-taught. I feel I’ve missed out on some fundamental computer science principles which makes it harder for me to understand or contribute in some areas of the codebases I’ve worked in. As much as I’d like to fill in the blanks, the areas I’m specialising in are still rapidly changing which keeps me busy enough as it is.</p>\n<p>I would have also made sure to update the design of my website after 7 years…</p>"
+                }
+            }
+        ]
+    },
+    {
+        "postDate": "2020-07-13",
+        "title": "S01E06",
+        "slug": "s01e06-stuart-nelson",
+        "heading": "Some days I just feel like I’m playing a game and it almost doesn’t feel like a real job",
+        "intro": "<p>Stuart approached me when I first floated the idea of Behind the Source to Codebar where he is a coach in Bristol. He had some helpful tips (and was one of the first to hear the name). This kind of interview is why I wanted to do this in the first place; you can tell Stuart is passionate about the web and loves what he does.</p>",
+        "intervieweeName": "Stuart Nelson",
+        "intervieweeSocial": [
+            {
+                "type": "website",
+                "fields": {
+                    "socialurl": "https://northernbadger.co.uk/",
+                    "displayUrl": "northernbadger.co.uk"
+                }
+            },
+            {
+                "type": "twitter",
+                "fields": {
+                    "socialusername": "@stuartjnelson"
+                }
+            }
+        ],
+        "body": [
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your job title (and feel free to talk about where you work)?",
+                    "answer": "<p>I'm a <strong>Lead Frontend engineer</strong> - I work at <a href=\"https://studee.com/\">Studee</a>, we make it simple to find, apply &amp; enrol at universities abroad. <br /><br />We currently have an engineering team of 7. Lead engineer, 3 backend engineers, QA, frontend/middleware and myself. We are a small team and everyone takes ownership of their part of the stack.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "How did you get where you are today? What is your education background? How many jobs have you had?",
+                    "answer": "<p>I went to uni and studied Commercial Music, which was a songwriting/performance/entrepreneurial degree. We had to make a website for a band on the course which was my first experience of web development. </p>\n<p>In my final year, I had to write a dissertation (which was daunting for me because I'm dyslexic) so my housemate and I did a swap; he helped me write my dissertation and I made him a website for one of his modules. Someone saw that site and asked me to make one for them - I said I'd do it for £50 and ever since I've been blagging it.</p>\n<p>I worked for myself creating WordPress sites for small businesses when I first started out. A couple of years ago I contracted for a few UK companies while living out on the west coast of Canada. I've had a couple of creative agency jobs and now I've got my first permanent product role. I really like my current role as I've been able to specialise just working on the frontend.</p>\n<p>I’ve always wanted to live in the mountains for a winter season. My ideal place to go was North America but Canada is a lot easier to get a visa than the USA. I was also interested in living in Canada as a place for the future. My partner and I went to Whistler which is the largest resort in Canada and had an awesome time. I managed to get 91 days in on the mountain.. We were there for 8 months then bought an old converted van and spent 3 months doing 7000 miles around the west coast of Canada and the USA. We decided to come back after our trip to the UK. </p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "The hardest part I find is keeping it as DRY as possible and naming things!"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your tech stack? What are your websites running on? What do you develop on/with?",
+                    "answer": "<p>On the frontend of the Studee website, we are using <a href=\"https://mustache.github.io/\">Mustache</a> for templating. This allows us to create the components for our Pattern library. The data files are all <em>.json</em> and the HTML is handcrafted by us. For styles we use Sass and all the JavaScript is only presentational. It's compiled with Rollup.js and then Docker is used to get everything running.</p>\n<p>I’ve been creating pattern libraries for a good five years now so I’ll be honest I don’t really think about it too much. The hardest part I find is keeping it as DRY as possible and naming things. I’m quite into Sass which I think makes life a heck of a lot easier when it comes to maintaining the pattern library.</p>\n<p>The middleware at work is a Node.js and Express setup. As much as possible our API does the bulk of the work which is written in PHP/symphony - I don’t touch the API code!</p>\n<p>My computer at work is a 13” MacBook Pro, which is pretty rad. Before I’ve only used a 15” laptop but now I think the slightly smaller size and lighter machine is the way forward. I haven’t used a PC in a while but would not be against it especially considering how expensive Macs have become.</p><p>At home, I have a few half-finished side-projects but the only open source one I’ve ever finished is <a href=\"https://ba.northernbadger.co.uk/\">Badger Accordion</a> which is an accessible lightweight, vanilla JavaScript accordion with an extensible API and it is only 8.17kb (Gzipped 2.49kb). </p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about your job?",
+                    "answer": "<p>I work in a really good team. Everyone is highly skilled but more importantly is nice to work with.We have four sh!t rules at Studee:<br /></p>\n<ul><li>Give a shit</li><li>Don’t talk shit</li><li>Get shit done</li><li>Don’t be a shit</li></ul>Web accessibility is a big passion of mine. Through my role I’m able to learn a lot more about accessibility and put it at the centre of my work. Through the coaching I receive at work I’ve had the confidence to create a workshop; Accessibility 101 and presented it to the whole company. Off the back of that other parts of the business really started to grasp it. Now we’re writing an accessibility statement, the content team is really behind it and I will be talking to our clients about it. I’ve been able to give the talk at a bunch of local meetups too.<br /><br />Work life balance is respected at Studee - I get to work remotely four days a week and in general we’re super flexible as a company. We aren’t measured on how much time we work but on our output. I’m a big believer this is how all business should be.<br /><p>We have business projects that we break down into engineering projects. An engineering project is then made up of a series of deliverable tasks which are no more than 3 days work. On a Thursday we go over what we have defined for the next week and decide how much work we can take on. If I didn’t take on enough work we always have non-critical defects or code improvements I can work on. Because the culture is so honest and positive at Studee, I don’t worry about my output too much. We really trust each other to get the work done and meet the business deadlines.<br /><br />Studee is <a href=\"https://studee.com/giving-back/\">passionate about taking responsibility for its impact as a business</a>. We get three paid days a year off to volunteer for organisations that we care about. We’re creating scholarships through a charity in Myanmar to give students there the opportunity to further their studies. Studee are also planting trees for every student we enrol to offset the carbon of their flights.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "Studee is passionate about taking responsibility for its impact as a business."
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "Is there anything you think that could be better?",
+                    "answer": "<p>I’ll be honest. Nope. I feel very lucky to be working in such a trusting company. There’s a lot of give and take. The result is I feel very motivated and relaxed. I’ll be left to do my work however I see fit and there is always someone in the team around to help out if I get stuck.</p>\n<p>It would be really nice, however, if we could hire some more Junior Engineers but right now we are a startup and need to scale <em>quickly.</em><br /></p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about the web industry?",
+                    "answer": "<p>Bringing together visual creativity and completed logic problems. Some days I just feel like I’m playing a game and it almost doesn’t feel like a real job. There are a lot of great opportunities out there and you don’t need a formal education to get them. I think, in general, there are a lot of really nice people in the industry willing to help each other and try to make their products available to everyone.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "There are a lot of great opportunities out there and you don’t need a formal education to get them"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What are your frustrations with the industry?",
+                    "answer": "<p>I feel since I started tinkering back in 2013 it's a lot more complex to get going. I started with a PHP WordPress theme, CSS and jQuery. I know there are zero config build tool options out there but I never managed to get them to just work straight away. <br /><br />JavaScript frameworks are super cool and can be the perfect tool but they shouldn’t be the thing you immediately reach for. There needs to be a reason you’d be reaching for a framework as opposed to a different solution. Working at Studee with the tech stack that was started before I came on board has really reinforced this. I hadn’t used Mustache or Node/Express before but they are very readable with a low barrier for entry. I didn’t get it right away but after a few weeks it all made sense. The reason I was able to understand Node/Express is because I’ve been lucky to have time to learn vanilla JavaScript. I’m not the world's best JS dev by any means, but I know enoughto be able to transfer my skills to any framework.<br /><br />Accessibility should be the first thing we think of. If you do then it solves a LOT of other issues. SEO, valid HTML, progressive enhancement, performance etc. The main factor for me is it’s the <em>right</em> thing to do. In 2016 I went to Render conf and Robin Christopherson, an accessibility legend, did this amazing talk about considering <a href=\"https://vimeo.com/165995026\">how making your website accessible doesn’t just benefit disabled people</a>; it benefits everyone. I HIGHLY recommend checking it out - after watching this I was inspired to try and make everything from there on out as accessible as possible.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "Accessibility should be the first thing we think of."
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
+                    "answer": "<p>I wish I’d learnt JavaScript differently. I learnt in dribs and drabs and got <em>very</em> stuck at the start. It meant there are some things now I get stuck on that I feel if I’d learnt in a more structured way at the start, I’d be in a better place now.<br /><br />I would have looked for a permanent role sooner/looked to attend something like <a href=\"http://codebar\">Codebar</a> to learn with others. As soon as I got into a team at my first agency, Mr B &amp; Friends my skills exponentially accelerated. It wasn't just having senior people around me to help me when I was stuck. I found that by simply sitting with them while they worked taught me a lot. It also made me feel a lot better about being stuck because everyone was getting stuck sometimes - even the lead dev with 10 years experience.</p>"
+                }
+            },
+            {
+                "type": "signupForm",
+                "fields": {
+                    "heading": "Signup to the newsletter",
+                    "text": null
+                }
+            }
+        ]
+    },
+    {
+        "postDate": "2020-07-06",
+        "title": "S01E05",
+        "slug": "s01e05-al-power",
+        "heading": "One can’t help being inspired by going online and seeing what people are sharing",
+        "intro": "<p>An absolutely legendary name, for a legendary hero. I was racking my brains as to how I met Al Power and I cannot, for the life of me, remember. We've known each other digitally for many years and have often bumped into each other at local conferences (including my own!). Al Power knows his stuff and (until I read this interview) I realised I didn't actually know that much about the man. He is one of the nicest people you'll meet and it is an honour to have him as part of this project.</p>",
+        "intervieweeName": "Al Power",
+        "intervieweeSocial": [
+            {
+                "type": "twitter",
+                "fields": {
+                    "socialusername": "@alpower"
+                }
+            },
+            {
+                "type": "website",
+                "fields": {
+                    "socialurl": "https://www.alpower.com",
+                    "displayUrl": "www.alpower.com"
+                }
+            }
+        ],
+        "body": [
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your job title (and feel free to talk about where you work)?",
+                    "answer": "<p>I am a <strong>Creative Director/Design lead</strong> for <a href=\"https://www.dabapps.com/\">DabApps</a>, a leading mobile/web application agency based in Brighton, UK. We help people design and develop great digital products.<br /></p>\n\n<p>I’ve done both managing others and also production work as part of my day-to-day. I don’t think there’s anything such as a ‘normal’ day as it varies week to week. </p>\n<p>I schedule in work and client meetings, and also help others on demand - i.e. if a developer has a question about something that wasn’t covered in designs I often help out fill in the gaps.</p>\n<p>I do find that setting out a portion of your day for uninterrupted work and the other half for meetings to be useful if you can. Once I learned that it was OK not always helping people immediately, but instead scheduling things at a certain time, it became much easier to reach and stay in flow. With the rise of asynchronous communication tools, things have become very interrupt-driven, and I’m trying to fight against this. </p>\n<p>Changing your Slack status to ‘head down - do not disturb’ then switching it off works wonders when you need to focus. People will always come and tap you on the shoulder if there is a real emergency.</p>\n<p>For me, as a designer, 50% of our job is design - the other 50% is communication - something that’s often lost on junior designers. </p>\n<p>Far too many designers have a hard time moving into management and feel that they aren’t doing real work, once they move over to more ‘people’ type things, when in fact giving guidance, critique and help to someone else who might be doing the work can be equally valid.</p>\n"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I learned that it was OK not always helping people immediately"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "How did you get where you are today? What is your educational background? How many jobs have you had?",
+                    "answer": "<p>5 jobs - I started out doing database support and backend work, moving to front end web development, then UX and design. I’ve found myself slowly moving up the stack (over about 20 years) following my interests as they evolved!</p>\n<p><em>[Mike: Big change - what made you go from back-end to front-end?]</em></p>\n<p>A big change indeed! I think it was mainly curiosity how things worked on the front end, and then once I was doing front end dev I started reaching out to customers for their input, and doing some user testing and realised the real value people working in both design and UX provide, so wanted to learn more about that.</p>\n<p>I’m a firm believer that people can have many careers (often in 3-5 year chunks), and shouldn’t stay doing anything when they feel they have outgrown it. Trying different things broadens the mind, and makes you aware of how other disciplines work, which can be helpful as you progress in your career.</p>\n<p>I’m happiest being a generalist and found each of those roles had enough crossover in skills to bridge the gap to move onto the next one, while I learnt.</p>\n<p>I didn’t know ‘what I wanted to do when I grew up’ but knew I wanted to go to university, so did a course that was split between Business, Computing, and HCI (human-computer interaction, which evolved into what we know as UX today). It was a ‘sandwich’ course, with a year working for Microsoft in SQL Server support in my third year - this was my first exposure to working in the tech industry and was invaluable. </p>\n<p>When I started it was very much expected that people had a degree, but now this isn’t the case - some of the most brilliant people I work with have gone straight into working and gaining experience, which I think now is the most important thing one can have.</p>\n<p>While at university I got into frontend development, working part-time doing HTML/CSS editing for some of the university departments, learning about web standards and accessibility. I then ended up working at several agencies in Oxford for several years, before leading the web team for Nominet, the UK domain registry. </p>\n<p>My interest in UX &amp; design then grew, and I started UXOxford (a UX meet-up/speaker series) which I co-ran for several years. I then moved to live by the sea, while working designing and building enterprise search experiences for a search consultancy, before moving agency-side where I am now.</p>\n"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "Some of the most brilliant people I work with have gone straight into working and gaining experience,"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your tech stack? What are your websites running on? What do you develop on/with?",
+                    "answer": "<p>At work: Python/Django on the backend - we have a very strong engineering team and build a lot of APIs. On the front end it varies - usually React with accessible HTML/CSS, and we occasionally use Wagtail - a Django-based CMS.</p>\n<p>As I’m a designer who can code, I usually start with a design tool (like Sketch) and prototype quickly. While people seem to respond well to visual mockups, I like getting things into code as soon as I can, as that's where one can see the real edges of things, and you can properly understand how something works in a real browser. </p>\n<p>Even spiking out things with mock data in a ‘living’ style guide can be helpful, as one can see how things behave responsively and can be tested in different devices/browsers more easily, even before you wire things up and develop properly.</p>\n<p>For my own site I have a website built in <a href=\"https://getkirby.com\">Kirby CMS</a> which I love, and use Netlify for things that can be static.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "It’s amazing how much you can improve existing projects with small adjustments rather than throwing things out and starting again."
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about your job?",
+                    "answer": "<p>The variety. Whether I’m working on a single project, or across a variety of clients, there are always dozens of things to do, whether exploratory design workshops at early stages or prototyping design, to doing UX audits on an existing project - it’s amazing how much you can improve existing projects with small adjustments rather than throwing things out and starting again.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What could be better?",
+                    "answer": "<p>There are always things one could improve process-wise, and I’m constantly looking at my design process, and what could be done better. Most of the time people focus on tools and technology, but the biggest improvements can be made in how we communicate with one another. Tools that help us get us to working code faster are good - I’m heartened by the progress of design systems and patterns, and design tokens that help both developers and designers get to something working faster. </p>\n<p>I’m currently reading <a href=\"http://shop.oreilly.com/product/0636920033561.do\">Discussing Design by Adam Connor and Aaron Irizarry</a> and <a href=\"https://rosenfeldmedia.com/books/build-better-products/\">Building Better Products by Laura Klein and Kate Rutter</a> which are both excellent.</p>\n"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "The biggest improvements can be made in how we communicate with one another"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about the web industry?",
+                    "answer": "<p>Its love of sharing and community - very open to new ideas and ways of working. One can’t help being inspired by going online and seeing what people are sharing and working on. I can’t think of another industry that's so sharing.</p>\n"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What are your frustrations with the industry?",
+                    "answer": "<p>Two things. One the lack of diversity in both gender and race of who works in the industry - I’m happy the subject has come more to the fore recently, but know there’s loads more we need to do in terms of equality and balance. </p>\n<p>As a white male, I’m fully aware that I’ve had a career in an industry that favours people who look and sound like me, and I know that every time I get the opportunity to work with a more diverse range of people both my perspective and my work benefits massively.</p><p>As both a designer and photographer, websites like <a href=\"https://techiesproject.com/\">Techies</a> and <a href=\"https://thegreatdiscontent.com/\">The Great Discontent</a> have been massively influential on my thinking. They show the outside world a more comprehensive picture of people who work in tech, broadening who I follow and pay attention to in our industry.<br /><br />I'd encourage you to explore sites like these and start listening to, following and promoting under-represented people, whether people of colour, women, folks over 50, LGBTQIA folks, working parents, the disabled, etc. There's plenty of room for all of us, and I guarantee you'll leave inspired.</p>\n<p>Secondly, tribalism. I’ve seen people in the industry (both developers and designers) get hot under the collar over the libraries and tools they use when the reality is that different tools are each good for different uses, and we should all be more accepting of people who are at different levels of experience in their career.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "Don’t compare yourselves to others too much"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
+                    "answer": "<p>I don’t think I would change anything - good or bad - everything is a learning experience. I'm lucky to work in an industry where people are willing to share knowledge, and I'm always learning from others, both as a designer and developer.</p>\n<p>If I'm feeling tired or burnt out, I like getting away from technology and screens for a bit. Going for a run or doing something creative with your hands gives the brain a rest and recharges you. You’ll find some of your best ideas will come when doing other things like this.</p>\n<p>My advice to you is to be open to trying new things and follow your heart. Try not to compare yourselves to others. Most of what people are putting online is a highlight reel, and most of us are learning as we go in reality. </p>\n<p>Do things you don’t know how to do, share and document your work - whatever stage you’re at, there’s always going to be people learning coming up behind you! But don’t try and fill every waking hour with design or development, as that way burnout beckons. You don’t have to work all the time - be kind to yourself and have some fun!</p>\n"
+                }
+            }
+        ]
+    },
+    {
+        "postDate": "2020-05-25",
+        "title": "S01E04",
+        "slug": "s01e04-cassie-evans",
+        "heading": "The thing I appreciate the most is that the web industry doesn’t stand still. You’re constantly learning.",
+        "intro": "<p>Cassie is an incredible front-end developer from Brighton. I've followed (and been a fan of) her since she started at <a href=\"https://clearleft.com/\">Clearleft</a>. Watching her go from front-end developer to international speaking superstar has been a joy (I'm sure <a href=\"https://www.bytesconf.co.uk/\">Bytesconf</a> had a big hand it that) and I was super stoked when she agreed to feature in this series.</p>",
+        "intervieweeName": "Cassie Evans",
+        "intervieweeSocial": [
+            {
+                "type": "website",
+                "fields": {
+                    "socialurl": "https://www.cassie.codes/",
+                    "displayUrl": "cassie.codes"
+                }
+            },
+            {
+                "type": "twitter",
+                "fields": {
+                    "socialusername": "@cassiecodes"
+                }
+            },
+            {
+                "type": "website",
+                "fields": {
+                    "socialurl": "https://codepen.io/cassie-codes/",
+                    "displayUrl": "codepen.io/cassie-codes"
+                }
+            }
+        ],
+        "body": [
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your job title?",
+                    "answer": "<p>My job title is officially ‘<strong>front-end developer</strong>’. Front-end encompasses so many things nowadays though, so that doesn’t tell you an awful lot! <br /><br />My role falls more in the ‘front of the front-end’ category. HTML, CSS, UI interactions, design patterns and accessibility. I write JS too, and enjoy it, but it’s not the core focus of my role.</p>\n\n<p>I work at <a href=\"https://clearleft.com/\">Clearleft</a> in Brighton. We’re a small independent design agency, with a big focus on UX. Front-end dev is seen as an important part of the design process. A way to deliver good visual design and UX research to the user.</p>\n"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I went quite a roundabout route to get to where I am today."
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "How did you get where you are today? What is your education background? How many jobs have you had?",
+                    "answer": "<p>I went quite a roundabout route to get to where I am today. My parents moved to South Africa when I was about 10 and I went to uni there, studying photography. I worked freelance for a couple of years, doing photography and a bit of graphic design.<br /><br />But when I moved back to the UK I lost all my connections and struggled to get that going again. I did bartending for a while and then managed to get a job doing photo retouching at a modelling agency. That wasn’t the best time. It didn’t sit well with me from a moral standpoint, and the work was incredibly tedious. I was comfortable though, and honestly, probably a little uncertain of my own abilities at that point, so I didn’t have the confidence to leave. Luckily, (in retrospect) I got made redundant, so that decision was made for me.<br /><br />I got back into pub work and started learning how to code in my spare time. It can be quite isolating learning to code, there’s a lot of sitting and frowning at error messages, and feeling a bit stupid. Finding the <a href=\"https://codebar.io/brighton\">Brighton Codebar</a> community and attending their free workshops really helped to build my confidence.</p>\n<p>A year or so later I had my first job at an ad agency, I found my love for web animation there, as I was making a lot of banner ads and jazzy landing pages.<br /></p>\n<p>There’s only so long you can focus your energy on building things that everybody hides with ad-blocking software. I wanted to build things that were more useful, and had a bit more impact, so I started job hunting, luckily Clearleft were on the hunt for a Junior at the same time.<br /></p><p>It was someone, rather than something that caught my imagination and got me into coding. Around the time I got made redundant, I went to a house party, and met a woman who’d just finished a coding bootcamp. She was spectacular, loud, excitable, brimming with enthusiasm for everything she’d learnt. We talked drunkenly at each other for hours. </p><p>Her enthusiasm reminded me of the excitement I felt back in the early 2000’s, making custom myspace profiles and neopets pages for friends. I hadn’t thought about that for years.<br /><br />On her recommendation I went to a free coding workshop at Le wagon. I felt pretty out of my depth, but I met another wonderful woman there, Jen. She introduced me to Codebar Brighton and took the time to give me guidance and advice. We sadly lost Jen to depression late last year. </p><p>I’m forever grateful to Jen. You never know how much a conversation or small act of kindness is going to have on someone's life. I try to emulate that whenever possible.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your tech stack? What languages do you use? What are your projects built with? Do you interact with servers, if so, what kind? What do you develop on/with?",
+                    "answer": "<p>At work we’re pretty tech-agnostic - We often integrate into our clients dev team, and we’re building things that existing teams will have to maintain, so we make tech decisions based on what’s best for the client and the end user. This is great, because I get to learn a lot of new technologies and frameworks. But it does mean I’m in an almost permanent state of imposter syndrome.<br /><br />My own website is built using <a href=\"https://hylia.website/\">Hylia</a>, an Eleventy starter kit that Andy Bell put together. Static site generators are awesome. Deployments are super easy too, as they’re managed with Netlify, which is just the best thing to happen to web development since flexbox.</p>\n<p><a href=\"https://www.11ty.dev/\">Eleventy</a> is the only *big name* static site generator I’ve tried. I personally like it because it’s just built on JavaScript, you don’t need to be familiar with react or vue to get going. <br />I also used <a href=\"https://docsify.js.org/#/\">docsify</a> to put together some documentation for a workshop I ran, that was really lovely to work with<br /></p>\n<p>In my spare time I mess about a lot with creative web technologies. I’m especially into SVG animation. But I’ve been tinkering around with p5.js and three.js too. I run a creative coding meetup called <a href=\"https://twitter.com/generatorbtn\">Brighton Generator</a>, and that’s a great source of inspiration!</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I run a creative coding meetup called Brighton Generator, and that’s a great source of inspiration!"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about your job?",
+                    "answer": "<p>I really enjoy having a job that’s both creative and technical. Visual problem solving is so much fun. I’m happiest when I’m solving a complicated layout problem, making graphical effects with filters, or figuring out some knotty animation code.</p>\n<p>Being able to code still feels pretty magical. The fact that you can open a text editor and just make something, from nothing. Magic. </p>\n"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What could be better?",
+                    "answer": "<p>I’d sometimes think I’d like to work on a bigger team, maybe on a product? <br />Because we work on a lot of smaller projects, with different tech stacks, I feel like I don’t have enough time to iterate and really go as deep into understanding things as I would like.<br /><br />But the grass is always greener, and I’m sure after a few years of working on one product with a certain tech stack I’d be desperate for some variety.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about the web industry?",
+                    "answer": "<p>After working in photo retouching, which was really repetitive, the thing I appreciate the most is that the web industry doesn’t stand still. You’re constantly learning.<br /></p><p>I really appreciate the knowledge sharing too. There’s this wonderfully collaborative, open-source, ‘knowledge is for everyone’ attitude to the web</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "There’s this wonderfully collaborative, open-source, ‘knowledge is for everyone’ attitude to the web"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What are your frustrations with the industry?",
+                    "answer": "<p>I feel like the tech industry takes itself far too seriously sometimes. I get frustrated by all the posturing and gatekeeping - “You’re not a real developer unless you use x framework”, “CSS isn’t a real programming language”.</p>\n<p>I think this kind of rhetoric often puts new developers off, and the ones that don’t get put off are more inclined to skip over learning things like semantic markup and accessibility in favour of learning the latest framework.<br />Having a deeper knowledge of HTML and CSS is often devalued. <br /></p>\n<p>Being a relatively visible woman in this industry comes with it’s own set of frustrations too.</p>\n"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
+                    "answer": "<p>There was a tweet I saw the other day by David Khourshid that said: </p><blockquote>“It's amazing how often the difference between \"I'll never understand how to do this\" and \"I'm pretty comfortable doing this\" is literally just trying it once.”</blockquote><p>When I started learning how to code, I was pretty nervous of trying new things. I put off learning JS for a long time, which I don’t regret at all, It lead to some very fun CSS only experiments! But I think if I could go back and start again, I’d try to be less nervous of giving new things a go.</p><p>This is actually valid advice for current-me too.</p>\n\n\n"
+                }
+            },
+            {
+                "type": "signupForm",
+                "fields": {
+                    "heading": "Sign up to the newsletter",
+                    "text": null
+                }
+            }
+        ]
+    },
+    {
+        "postDate": "2020-05-18",
+        "title": "S01E03",
+        "slug": "s01e03-stephanie-stimac",
+        "heading": "I work on the thing that gives millions of people access to the internet and I get to empower developers to build for it",
+        "intro": "<p>I came across Stephanie when I was listening to <a href=\"https://www.smashingmagazine.com/2020/01/smashing-podcast-episode-8/\">Episode 8</a> of the the Smashing Podcast. I was in the process of curating Series One and thought it would be fascinating to have a developer who works on a browser as part of the series. The <a href=\"https://webwewant.fyi/\">Web We Want</a> initiative is awesome and despite the stigma that working on Microsoft Edge sometimes has, it sounds like, with the move the Chromium, Microsoft are really pushing the web and its standards forward.</p>",
+        "intervieweeName": "Stephanie Stimac",
+        "intervieweeSocial": [
+            {
+                "type": "website",
+                "fields": {
+                    "socialurl": "https://stephaniestimac.com",
+                    "displayUrl": "stephaniestimac.com"
+                }
+            },
+            {
+                "type": "twitter",
+                "fields": {
+                    "socialusername": "@seaotta"
+                }
+            }
+        ],
+        "body": [
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your job title?",
+                    "answer": "<p>My title is <strong>Program Manager</strong> for Microsoft Edge Developer Experiences, but if you ever see me speak at a conference or meetup, I’m fond of calling that a “fancy” title I acquired for myself. </p>\n<p>I’ve taken to calling myself a <strong>Design Technologist</strong> because I live at this intersection of design and front-end development and sort of gravitate back and forth between those two worlds. </p>\n<p>My day-to-day role depends on whether or not I’m travelling for a conference and it is a bit different now compared to when I was doing design. Some days are packed full of meetings with maybe 1-3 hours free for actual work. </p>\n<p><em>Actual work</em> for me right now is a little bit bonkers, I’m usually: reviewing submissions for <a href=\"https://webwewant.fyi/\">The Web We Want</a> initiative, doing research and compiling information in partnership with other team members on Edge for conference/meetup talks, working with partners outside of Microsoft, checking Twitter and responding to feedback from developers, helping to manage the Microsoft Edge developer portal and documentation pages, and, when I have a spare moment, I’ll pop over onto the <a href=\"https://webhint.io/\">webhint.io</a> repo to fix some design backlog issues. <em>[Mike: Blimey, that is busy!]</em></p>\n<p>I have so many things that I own at the moment, there is no real “typical” day for me.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "How did you get where you are today? What is your educational background? How many jobs have you had?",
+                    "answer": "<p>I graduated in 2010 with a Bachelor's Degree in New Media Design, basically, digital design. I’m not super happy with the experience I had at university when it came to my area of study and feel like I missed out on some fundamentals when it came to design, but I graduated and getting that first job was really hard. </p><p>I had 3 jobs before Microsoft, not including the freelance work I used to do on the side. I worked part-time for a small local company in Bellingham, WA doing very unglamorous design work in an unglamorous office (it was a barn) and was just hungry to get experience. So I spent 6 months there and was then hired on at a start-up in Bellevue, WA called Point Inside that had a mobile app. I spent a year doing production design work and user interface work for the app. </p><p>After a year I was referred by a former classmate for a position at a Public Relations agency on their creative team. That was my so-called “big” break. I spent 4 years at the agency and worked my way up from doing production work, like designing PowerPoint templates, event invites, miscellaneous print materials and infographics to becoming an Experience Designer. I was responsible for the entire project lifecycle when it came to websites: I’d do the research, wireframes, visual design and front-end development. We’d hire a developer when we needed some more complex functionality that was out of my skill range. </p><p>That was where I really fell in love with the web and building for it. After 4 years at that agency, I was hired onto the Microsoft Edge team as a Program Manager but I was doing design work for our developer-facing web properties and only in the last year have I switched out of that design role into a more developer engagement and advocate type role. </p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your tech stack? What languages do you use? What are your projects built with? Do you interact with servers, if so, what kind? What do you develop on/with?",
+                    "answer": "<p>HTML and CSS are at the core of what I do when I’m working on a project. I understand JavaScript and its capabilities but I’m not very good at writing it -- I’ve never had to be. I’ve usually worked with a team where I could hand off my HTML and CSS and they would make whatever changes they needed to and add in JavaScript. </p><p>Lately, I’ve been heavy into using <a href=\"https://www.11ty.dev/\">11ty</a> for projects so that’s been fun to explore and learn how to work with JSON files and data. </p><p>My primary machine at work is a MacBook <em>[Mike: A Microsoft Edge employee on a Mac! Whatever next]</em> but I switch between Windows and Mac frequently and I use VS Code. At home, I have an iMac because I’m still a designer at my core and do a bit of photography on the side in addition to coding. </p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I constantly find myself in awe of the role I’m in"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about your job?",
+                    "answer": "<p>I constantly find myself in awe of the role I’m in. I don’t just get to work on the web building websites, I work on the thing that gives millions of people access to the internet and I get to empower developers to build for it. A lot of my role lately has been focused on an initiative called <a href=\"https://webwewant.fyi\">The Web We Want</a> and identifying pain points that developers have when building for the web. </p><p>I actually really enjoy engaging with developers and digging into their problems to figure out how we can solve them or make their experience in a product better.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What could be better?",
+                    "answer": "<p>As it goes with very large companies, there can be a lot of bureaucracy and projects can take a long time to get started. Sometimes that’s just the culture and it can take a very long time to change if you can change it at all.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "You can never stop learning if you work on the web"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about the web industry?",
+                    "answer": "<p>There are so many amazing people I’ve met at conferences with such a wealth of knowledge. Getting to engage with them and learn from them is one of my favourite things. I love how big the industry is too, as you grow and gain experience, everyone kind of has their own little niche whether that’s performance or security or CSS, there are so many opportunities to learn. You can never stop learning if you work on the web because of the pace of things and I love that.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What are your frustrations with the industry?",
+                    "answer": "<p>We unfortunately still have a long way to go when it comes to being inclusive and being aware of our unconscious biases. There are great people doing great work, like <a href=\"https://tatianamac.com/\">Tatiana Mac</a>, and I always appreciate her perspective and really try to take to heart what she shares.</p><p>I was looking over a conference lineup the other day and it was all white men, and as a woman in the industry, it frustrates me that this is still an issue. There was a CFP open for the conference still and I immediately decided not to submit anything for it. If you’re a conference organiser, I believe you should have a diverse lineup of speakers, otherwise, how do you help build an inclusive industry? </p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "If you’re a conference organiser, I believe you should have a diverse lineup of speakers, otherwise how do you help build an inclusive industry?"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
+                    "answer": "<p>Honestly, I wouldn’t. </p>\n<p>The path I took led me to a job that I love and I wouldn’t do anything differently. For me, I’m lucky that I get to learn as a part of my job. I get to keep my finger on what’s hot in the dev community, what tools are people using, what framework, etc. And I believe you should never stop learning because there’s always something new <em>to </em>learn. If you went to university, you don’t graduate knowing it all, and perhaps that’s one thing I wish I could tell myself: it’s okay to not know it all, you don’t know and you never will, but curiosity and willingness to learn new things will take you far.</p>"
+                }
+            },
+            {
+                "type": "signupForm",
+                "fields": {
+                    "heading": "Enjoyed the interview?",
+                    "text": "Signup to be notified when the next one goes live"
+                }
+            }
+        ]
+    },
+    {
+        "postDate": "2020-05-11",
+        "title": "S01E02",
+        "slug": "s01e02-josh-hudson",
+        "heading": "If you do interview, ask them questions. You are interviewing them as well as them interviewing you.",
+        "intro": "<p>Josh approached me about being featured in Behind the Source, although he needed no introduction. Having followed him on twitter for a while, I knew exactly who he was. A local (to me) Brighton web developer. I was fascinated to hear his story about how he got into the web industry and how he feels the community is as a whole, from a Junior Developer's point-of-view.</p>",
+        "intervieweeName": "Josh Hudson",
+        "intervieweeSocial": [
+            {
+                "type": "twitter",
+                "fields": {
+                    "socialusername": "@joshyhud"
+                }
+            }
+        ],
+        "body": [
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your job title (and feel free to talk about where you work)?",
+                    "answer": "<p>I am a Junior Web Developer and I work for <a href=\"https://wearetilt.com/\">Tilt</a> in sunny Brighton and have been for two years.</p>\n<p>My day to day tasks includes developing the frontend on projects, building proof of concepts or bug fixing after internal or external QA and client feedback. I also cover maintenance for clients with bug fixing and new feature research which involves creation and implementation into existing sites. </p>\n<p>Testing is another process I do on a daily basis, making sure that changes are tested and approved by the internal team and clients on staging servers, before pushing to live.</p>\n<p>Work is always busy but we have a great team that works together to help each other out and support one another. Free coffee (and support) at work is also a major plus. Having a space to learn by doing is great for me while I learn more about development. </p>\n<p>Recently, I have been setting up servers and learning about more backend processes, which has been really helpful when it comes to pushing code to both staging and live servers.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "Be honest when applying for jobs"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "How did you get where you are today? What is your educational background? How many jobs have you had?",
+                    "answer": "<p>I originally started out learning to code about four years ago while working as a customer service agent for a large utility company. I wanted a change and decided to utilise my employees learning scheme to learn something new.</p>\n<p>I enrolled at Brighton MET for an introduction to HTML, CSS, and JavaScript 8 week evening course - it was really good fun and included quite a bit of practical work and helped my skills increase quickly in a nurturing environment. After completing this course, I followed on with another 8-week course for PHP and MySQL, which I equally enjoyed as the logic behind this language really interested me.</p>\n<p>\t</p>\n<p><em><strong>[Mike: Having now worked as Junior Developer for 2 years and knowing what is “right”, did the course teach “up-to-date” techniques or was it outdated?] </strong></em></p>\n<p>The course taught me basic HTML, CSS, and Javascript and was good to set up the basic building blocks to Web Development, so I wouldn't say this is outdated, as getting the basics right is key to web development and is a good place to start. We used Notepad++ as the editor and made simple web pages with text and images and the course did teach good structure for code. It was a great place to start and then look into further more advanced techniques after myself.</p>\n<p>After the night classes, I was introduced to <a href=\"https://codebar.io/brighton\">Codebar Brighton</a>, a local group that meets up once a week and helps underrepresented groups in tech get into coding. The group is run by local developers who give up their free time to help others - which is amazing. Getting to see the insides of some tech companies in Brighton and being surrounded by the community was a great boost for me, I learned so much from the developers who gave up their time for me. </p>\n<p>I then knew that a dev job is what I wanted to do. I began looking around and sending email questions to local companies - some replied with helpful answers and some not. I asked about roles and, if possible, asking for directions to go as a new dev if they didn't have any jobs available. Being open about my skills and what I could and couldn't do helped a lot when it came to getting answers from companies. I soon managed to apply for a role at my current job Tilt who appreciated my honest approach and were willing to take on a Junior Developer to help educate and give an opportunity to grow. </p>\n<p>This is my first dev job and I'm really grateful for the opportunity that I have been given, as entry-level jobs can be hard to find. My advice to any new dev is to be honest when applying for jobs and also if you do interview ask them questions as you are interviewing them as well as them interviewing you. </p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your tech stack? What languages do you use? What are your projects built with? Do you interact with servers, if so, what kind? What do you develop on/with?",
+                    "answer": "<p>I currently work on various projects utilising HTML, CSS, and JavaScript. I also build and maintain projects in Wordpress using PHP and MySQL for databases. Occasionally I will help out with bug fixing on the Laravel built projects. Other projects I also work with use Drupal, which I maintain the code including modules and security updates. </p><p>I do interact with servers, making updates that have been done locally to staging environments and also pushing changes live. I recently learnt how to set up Linux servers for development; making sure that these are secure for projects to be used on. I thought server setup would be daunting but it's been good and lots of documentation exists out there to help. </p><p>I mainly use Sublime Text to code with day to day and use chrome as my main browser to locally build with the use of dev tools. However, I do use all browsers to cross-browser test. The terminal is my friend along with using Git for version control is great and easy to use. Also, a Spotify account is a <strong>must</strong> to have some great dev playlist playing while I work. </p><p>Working on code is great, but understanding more about how the back end works is something that I was curious about. The command line helps so much on my day to day as making sure version control for code is important and a small git command make a big difference when saving your work. It was a lot to learn initially, the command line wasn’t taught to me in the college course, but documentation online has been really helpful to learn this. Also, one thing I advise is getting used to typing in the commands manually, as copy and paste is great but typing will commit the command to memory and make you understand it more. <br /><br />It’s a bit like a Stack Overflow issue that you find. You get your answer in a code snippet and can copy and paste it to solve your problem, but if you don't understand the code and what it does it is pretty much useless. Taking time to understand and type in the command helps so much in the long run. <em>[Mike: It also helps when you are on a machine you can't copy and paste to]</em><br /><br />I found the jump different but went in with an open mind and the best thing to do is just start using it, the more you use it the better your skills become and remember that there is documentation out there.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "Get used to typing in the commands manually, as copy and paste is great but typing will commit the command to memory and make you understand it more"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about your job?",
+                    "answer": "<p>I really love solving a problem. I could be hours or days on an issue but when it's finally resolved and solved the feeling I get is great, because <em>I</em> fixed it. I do get up and do a little dev dance around the office when an issue is fixed or something I have done has worked. </p><p>I have headphones on so it is a bit of a silent disco, but I do find myself humming or singing out loud in the office. Singing <em>Chaka Khan</em> out loud can be embarrassing but I find the office joins in anyway.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What could be better?",
+                    "answer": "<p>I think that what could be better is more of a personal thing with me as, occasionally, I get imposter syndrome which seems to be a rising issue in the tech community. I get the feeling sometimes that I'm not good enough at my job and don’t deserve what I have. I combat this by reminding myself of where I have been and what I have accomplished <em>[Mike: Or how many dances you do in a week?]</em>. In January I made a list of my accomplishments from the last year, which has really helped put into perspective where I have come over the last few years.</p><p>I also strive to try and learn more but sometimes I feel that there is so much out there to learn in tech. Getting better at the basics is what I need to focus on, as I feel it's better to be great at some things than spread too thin and average at all things.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "I feel it's better to be great at some things than spread too thin and average at all things."
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about the web industry?",
+                    "answer": "<p>I love the fact that there are so many people online willing to help and Stack Overflow has been a lifesaver at times. So many times I have been stuck but a quick Google search can help a lot when facing a problem.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What are your frustrations with the industry?",
+                    "answer": "<p>I think that tech community needs to become a lot more diverse and open their arms to everyone. Tech companies need to invest more in programmes like CodeBar to help people, as it not only benefits new dev babies but also will benefit them to give back to a growing community.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "Its not just skills that will get you a job its personality"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
+                    "answer": "<p>I’m not really sure what I would have done anything else differently, as for me taking my time to learn new skills with a college evening course would have always been my first point of call. However, if I knew about Codebar earlier I would have gotten more involved with them from the word go, as it's a great place to meet people and learn the basics for free and get help from professionals. I think getting a job I would still be myself today and be honest about my skills and when interviewing. I would still be myself as its not just skills that will get you a job its personality as you have to fit in with the people you work with.</p>"
+                }
+            },
+            {
+                "type": "signupForm",
+                "fields": {
+                    "heading": "Register for updates",
+                    "text": null
+                }
+            }
+        ]
+    },
+    {
+        "postDate": "2020-05-04",
+        "title": "S01E01",
+        "slug": "s01e01-sara-vieira",
+        "heading": "Sometimes we lose track that the web was built for people and not for just us",
+        "intro": "<p>Sara and I have followed each other on twitter for a long time. When I started publishing tutorial YouTube videos, she was one of the first (and only) to encourage me. This small act of kindness means that I have a huge amount of respect for her and have learnt that she is pretty dope. When this project progressed from an idea to realisation, she was top of my list to ask to be involved and I was ecstatic when she said yes.</p><p>You may recognise her from speaking at many different conferences, <a href=\"https://leanpub.com/opinionated-guide-to-react\">from her book</a>, or just from being kick-ass on Twitter. Or you might not - that doesn't matter.</p>",
+        "intervieweeName": "Sara Vieira",
+        "intervieweeSocial": [
+            {
+                "type": "twitter",
+                "fields": {
+                    "socialusername": "@NikkitaFTW"
+                }
+            },
+            {
+                "type": "github",
+                "fields": {
+                    "socialusername": "SaraVieira"
+                }
+            }
+        ],
+        "body": [
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your job title?",
+                    "answer": "<p>My job title is \"<strong>Software Engineer</strong>\", which means I mostly do front-end (mainly <a href=\"https://reactjs.org/\">React</a>) with some Node sprinkled here and there. I work for <a href=\"https://codesandbox.io/\">CodeSandbox</a>, which is an online code editor that - we aim to hopefully allow more people to learn how to do front-end while empowering the rest of us to share our code more easily.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "How did you get where you are today? What is your educational background? How many jobs have you had?",
+                    "answer": "<p>I was born in fuck-town nowhere in Portugal, I think we have a population of about 5,000 people and it is so small, the hospital I was born in even closed.</p><p>I got to be a developer (and a well-paid one) with a bit of luck and a lot of work (but in truth, I think that’s what we all say even if luck isn’t an actual thing we can touch and quantify). <br /></p><p><em>Looks at LinkedIn profile...</em></p><p>I have been working in this industry since 2014; over that time I have had 6 jobs - most of them were pretty good placements where I was able to grow, learn and discover new things that kept me excited about tech. That isn't to say they were all good, but I am proud of my country for the decent jobs we have in terms of environment, not money (we don’t have that) but environment.</p><p>I was actually in my first job while I was an intern when I got into speaking, before getting a job to pay for my stuff (like gas) I did a bunch of articles that paid me and got me contacted by Front Trends (a conference in Warsaw) - I swear at first it was a scam and I was going to get kidnapped &#x1f602; <em>[Mike: Thank god she didn't, although I'm sure we could have made a Kickstarter to pay the ransom...]</em></p><p>After that first talk, I continue to share my knowledge which helps with the anxiety issues I had, and still have. The anxiety does get better but no matter how many times you speak you are still terrified of it.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "The anxiety does get better but no matter how many times you speak you are still terrified of it"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What is your tech stack? What are your websites running on? What do you develop on/with?",
+                    "answer": "<p>I mostly work with React daily, the CodeSandbox website is built with React and so are about 70% of my side projects. As for the rest, I use a lot of <a href=\"https://styled-components.com/\">styled-components</a> for styling and the rest varies a lot by project.</p><p>I do like React <em>a lot.</em> I also love Vue, but always end up using more React as I am faster in building things, since I have been using for about 4 years. I like to build things fast, and that’s the reason I don’t have a lot more variety in frameworks in my side projects.</p><p>As for hosting these side projects, I would say 90% are hosted in <a href=\"https://www.netlify.com/\">Netlify</a>, 9% on <a href=\"https://zeit.co/\">Zeit</a> (mostly the Node ones, like small serverless functions) and one is on <a href=\"https://www.digitalocean.com/\">Digital Ocean</a>. At least all my domains are on <a href=\"https://www.namecheap.com/\">Namecheap</a> so I can have one constant in my dev environment.</p><p>As for my “machine”, I have a 13” inch MacBook without a touch bar and I love him.</p>"
+                }
+            },
+            {
+                "type": "image",
+                "fields": {
+                    "image": [
+                        "732"
+                    ]
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about your job?",
+                    "answer": "<p>The people I work with are some of the kindest humans I have ever met. They all just want to see us be better and happier people. I love my team in all ways, they even made a video when I got married last year.</p>\n<p>We are a team of 9. Some of us work in the HQ in Amsterdam while the rest work remotely from several parts of Europe. I love the product I work on, I think it helps developers starting out and makes sharing of code much easier.</p>\n<p>It’s such a nice feeling to be able to build a platform to code, with code, I feel like I have to get back to the basics, in trying to work out I would have liked to have as I was starting out.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What could be better?",
+                    "answer": "<p>Honestly, I don’t know, the only thing I can think of is that it would be awesome is if the EU would get their shit together so I didn’t have to be a <em>freelancer</em> to work for a company in the <em>Netherlands</em> living in Germany, but that’s not on the job.</p><p>I mean I also didn’t <em>really</em> approve our transition to <a href=\"https://www.typescriptlang.org/\">TypeScript</a> - but, well, nothing can be perfect.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "It would be awesome if the EU would get their shit together"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What do you love about the web industry?",
+                    "answer": "<p>Our willingness to share and learn from each other is amazing. We are more than willing to give back and try to teach the next person - either by mentoring or open-source. We are generally a good bunch of people that just want more people to join the industry.</p>"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "What are your frustrations with the industry?",
+                    "answer": "<p>The fact that there seems to always be a fight to \"who is the smartest person that is going to build the greatest thing\" and sometimes we lose track that the web was built for people, and not for just us.</p><p>This is something that I think can be seen as good in one sense, as it is more competition in the open-source world, but, that’s the thing, open source shouldn’t be a competition. It should be about all of us joining together and trying to make the best tool ever, instead of always trying to make the most awesome JavaScript library anyone has ever seen.</p>"
+                }
+            },
+            {
+                "type": "pullquote",
+                "fields": {
+                    "quote": "Sometimes we lose track that the web was built for people and not for just us"
+                }
+            },
+            {
+                "type": "question",
+                "fields": {
+                    "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
+                    "answer": "<p>I would not have been a developer advocate.</p><p>A developer advocate is someone who gets paid to travel the world and teach people things, or that’s what they sell you on. In the end, you (or at least me) ,end up being a fancy PR person that can make buttons. It also requires so <em>muuuuch</em> traveling, which was spiralling me into a mental breakdown. </p><p>Most of my joy in this job comes from coding and building things. I like teaching people but after being a developer advocate and a developer, I learned that I can get the best of being a developer advocate and do it in a developer position, all it takes is finding a good company.</p>"
+                }
+            },
+            {
+                "type": "signupForm",
+                "fields": {
+                    "heading": "Enjoyed the interview?",
+                    "text": "Sign up to be notified when the next one goes live"
+                }
+            }
+        ]
+    },
+    {
+        "postDate": "2020-04-20",
+        "title": "S01E00",
+        "slug": "s01e00-pilot",
+        "heading": "Introducing our interviewees...",
+        "intro": "<p>Here's a sneak peak as to who is coming up in the first series of Behind the Source.</p>",
+        "intervieweeName": "Mike Street",
+        "intervieweeSocial": [
+            {
+                "type": "website",
+                "fields": {
+                    "socialurl": "https://www.mikestreety.co.uk",
+                    "displayUrl": "mikestreety.co.uk"
+                }
+            },
+            {
+                "type": "twitter",
+                "fields": {
+                    "socialusername": "@mikestreety"
+                }
+            }
+        ],
+        "body": [
+            {
+                "type": "rte",
+                "fields": {
+                    "text": "<p>Hello and welcome to the first series of Behind the Source. I've spent the last few months sourcing, persuading and pleading with people to be interviewed, so we can take a peak behind the masks of developers, designers and people in the web.</p>\n<p>Lined up I have 8 fantastic interviews with people from all walks of life and have posed to them the same 8 questions about their jobs, their backgrounds, their feelings about the industry and what tools they use to do their work.</p>\n<p>Over the course of the series, you'll notice a theme which runs through each of the interviews. It is one that will probably come as no surprise. Our industry is filled with lovely, open, sharing people but also intoxicated with prejudice, gatekeeping cliques. I hope, for everyone's sake, the former outweigh the latter.</p>\n<p>I would like to thank every single one of the interviewees for giving up their time to answer the questions.</p>\n<p>Make sure you <a href=\"{entry:236@1:url}\">Sign up to the newsletter</a> or <a href=\"/rss\">subscribe to the RSS feed</a> to be kept up to date.</p>\n<h2>Episode Guide</h2>\n<p>The following interviews will be going live over the next couple of months. Each Monday at 9am BST, starting on 4th May 2020.</p>\n<ol><li><strong><a href=\"{entry:590@1:url}\">S01E01</a>: Sara Vieira</strong> (<a href=\"https://twitter.com/NikkitaFTW\">@NikkitaFTW</a>)<strong> </strong>- 4th May 2020</li><li><strong><strong><a href=\"{entry:883@1:url}\">S01E02</a>: </strong>Josh Hudson</strong> (<a href=\"https://twitter.com/joshyhud\">@joshyhud</a>) - 11th May 2020</li><li><strong><strong><a href=\"{entry:764@1:url}\">S01E03</a>: </strong>Stephanie Stimac</strong> (<a href=\"https://twitter.com/seaotta\">@seaotta</a>) - 18th May 2020</li><li><strong><strong><a href=\"{entry:2694@1:url}\">S01E04</a>: </strong>Cassie Evans</strong> (<a href=\"https://twitter.com/cassiecodes\">@cassiecodes</a>) - 25th May 2020</li><li><strong><strong><a href=\"{entry:1417@1:url}\">S01E05</a>: </strong>Al Power</strong> (<a href=\"https://twitter.com/alpower\">@alpower</a>) - 6th July 2020</li><li><strong><strong><a href=\"https://www.behindthesource.co.uk/interviews/s01e06-stuart-nelson\">S01E06</a>: </strong>Stuart Nelson</strong> (<a href=\"https://twitter.com/stuartjnelson\">@stuartjnelson</a>) - 13th July 2020</li><li><strong><strong><a href=\"https://www.behindthesource.co.uk/interviews/s01e07-matt-stow\">S01E07</a>: </strong>Matt Stow</strong> (<a href=\"https://twitter.com/stowball\">@stowball</a>) - 20th July 2020<a href=\"https://www.behindthesource.co.uk/interviews/s01e08\"><br /></a></li><li><strong><a href=\"https://www.behindthesource.co.uk/interviews/s01e08\">S01E08</a>: Cassidy Williams</strong> (<a href=\"https://twitter.com/cassidoo\">@cassidoo</a>)- 27th July 2020</li></ol>"
+                }
+            },
+            {
+                "type": "signupForm",
+                "fields": {
+                    "heading": "Like what you see?",
+                    "text": "Want to be in the know? Sign up to the mailing list!"
+                }
+            }
+        ]
+    }
+]
