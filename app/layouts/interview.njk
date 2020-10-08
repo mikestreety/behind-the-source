@@ -1,23 +1,17 @@
-{% set seoPageTitle = entry.title ~ ": " ~  entry.intervieweeName %}
-{% set seoPageDescription = entry.heading ~ " - " ~ entry.intervieweeName ~ " is interviewed for Behind the Source" %}
-{% set intervieweePhoto = entry.intervieweePhoto.one() %}
-{% set socialMediaPhoto = entry.socialMediaImage.one() %}
+---
+layout: default.njk
 
-{# Set parameters for prev/next elements list #}
-{% set params = craft.entries.section('interviews').order('postDate asc') %}
-
-{# Get the prev/next elements #}
-{% set prevEntry = entry.getPrev(params) %}
-{% set nextEntry = entry.getNext(params) %}
-
-{% extends "_template" %}
-{% block content %}
+eleventyComputed:
+    title: "{{ entry.title }}: {{ entry.intervieweeName }}"
+    seoPageTitle: "{{ entry.title }}: {{ entry.intervieweeName }}"
+    seoPageDescription: "{{ entry.heading }} - {{ entry.intervieweeName }} is interviewed for Behind the Source"
+---
 <div itemscope itemtype="http://schema.org/PublicationIssue" class="interviewSingle">
 
 	<p class="meta">
 		<span itemprop="issueNumber">#{{ entry.title }}</span>
-		<time datetime="{{ entry.postDate.format('Y-m-d') }}" itemprop="datePublished">
-			{{ entry.postDate.format('jS M Y') }}
+		<time datetime="{{ entry.postDate }}" itemprop="datePublished">
+			{{ entry.postDate | readableDate }}
 		</time>
 	</p>
 
@@ -25,39 +19,40 @@
 
 	<div class="who" itemscope itemtype="http://schema.org/Person">
 		<div class="">
-			<img itemprop="image" src="{{ intervieweePhoto.getUrl() }}" width="{{ intervieweePhoto.getWidth() }}" height="{{ intervieweePhoto.getHeight() }}" alt="{{ intervieweePhoto.title }}">
-
+			<img itemprop="image" src="" width="" height="" alt="{{ entry.intervieweeName }}">
 		</div>
 		<div class="">
 			<h2 itemprop="name">{{ entry.intervieweeName }}</h2>
-
-			{% for block in entry.intervieweeSocial.all() %}
-			{% include 'partials/_social-matrix' %}
+			{%- for link in entry.intervieweeSocial %}
+				<a href="{{ link.href }}" itemprop="sameAs">{{ link.title }}</a>
 			{% endfor %}
 		</div>
 	</div>
 
-	<div class="intro" itemprop="abstract">{{ entry.intro }}</div>
+	<div class="intro" itemprop="abstract">{{ entry.intro | safe }}</div>
 
 	<div>
-		{% for block in entry.body.all() %}
-		{% include 'partials/_matrix' %}
+		{%- for item in entry.body %}
+			{%- if item.type == 'question' %}
+			<dl class="interviewQuestion" itemprop="mainEntity" itemscope itemtype="http://schema.org/Thing">
+				<dt itemprop="name">{{ item.fields.question | safe }}</dt>
+				<dd itemprop="description">
+					{{ item.fields.answer | safe }}
+				</dd>
+			</dl>
+			{%- endif %}
+			{%- if item.type == 'pullquote' %}
+			<div itemscope itemtype="http://schema.org/Quotation">
+				<blockquote itemprop="mainEntity" itemscope itemtype="http://schema.org/Thing">
+					<p itemprop="description">{{ item.fields.quote }}</p>
+				</blockquote>
+				<cite class="isHidden" itemprop="spokenByCharacter" itemscope itemtype="http://schema.org/Person">
+					<meta itemprop="name" content="{{ entry.intervieweeName }}">
+				</cite>
+			</div>
+			{%- endif %}
 		{% endfor %}
 	</div>
 	<p>If you enjoyed this interview, would you consider <a href="https://www.buymeacoffee.com/mikestreety">buying us a round</a>? Make sure you mention {{ entry.intervieweeName }} in the message and i'll make sure they get half. Thank you.</p>
 </div>
-<nav class="entryNavigation">
-	<h2>Other interviews</h2>
-	<ol class="interviewListing">
-		{% if nextEntry %}
-			{% set entry = nextEntry %}
-			{% include 'partials/_entry' %}
-		{% endif %}
 
-		{% if prevEntry %}
-			{% set entry = prevEntry %}
-			{% include 'partials/_entry' %}
-		{% endif %}
-	</ol>
-</nav>
-{% endblock %}

@@ -8,37 +8,24 @@
         "intervieweeName": "Cassidy Williams",
         "intervieweeSocial": [
             {
-                "type": "website",
-                "fields": {
-                    "socialurl": "https://cassidoo.co/",
-                    "displayUrl": "cassidoo.co"
-                }
+                "href": "https://cassidoo.co/",
+                "title": "cassidoo.co"
             },
             {
-                "type": "website",
-                "fields": {
-                    "socialurl": "https://cassidoo.co/newsletter",
-                    "displayUrl": "cassidoo.co/newsletter"
-                }
+                "href": "https://cassidoo.co/newsletter",
+                "title": "cassidoo.co/newsletter"
             },
             {
-                "type": "twitter",
-                "fields": {
-                    "socialusername": "@cassidoo"
-                }
+                "title": "@cassidoo",
+                "href": "https://www.twitter.com/cassidoo"
             },
             {
-                "type": "github",
-                "fields": {
-                    "socialusername": "cassidoo"
-                }
+                "title": "cassidoo",
+                "href": "https://www.github.com/cassidoo"
             },
             {
-                "type": "website",
-                "fields": {
-                    "socialurl": "https://www.netlify.com/?utm_source=behindthesource&utm_medium=interview-cs&utm_campaign=devex",
-                    "displayUrl": "Netlify"
-                }
+                "href": "https://www.netlify.com/?utm_source=behindthesource&utm_medium=interview-cs&utm_campaign=devex",
+                "title": "Netlify"
             }
         ],
         "body": [
@@ -133,16 +120,12 @@
         "intervieweeName": "Matt Stow",
         "intervieweeSocial": [
             {
-                "type": "twitter",
-                "fields": {
-                    "socialusername": "@stowball"
-                }
+                "title": "@stowball",
+                "href": "https://www.twitter.com/stowball"
             },
             {
-                "type": "github",
-                "fields": {
-                    "socialusername": "stowball"
-                }
+                "title": "stowball",
+                "href": "https://www.github.com/stowball"
             }
         ],
         "body": [
@@ -237,17 +220,12 @@
         "intervieweeName": "Stuart Nelson",
         "intervieweeSocial": [
             {
-                "type": "website",
-                "fields": {
-                    "socialurl": "https://northernbadger.co.uk/",
-                    "displayUrl": "northernbadger.co.uk"
-                }
+                "href": "https://northernbadger.co.uk/",
+                "title": "northernbadger.co.uk"
             },
             {
-                "type": "twitter",
-                "fields": {
-                    "socialusername": "@stuartjnelson"
-                }
+                "title": "@stuartjnelson",
+                "href": "https://www.twitter.com/stuartjnelson"
             }
         ],
         "body": [
@@ -349,17 +327,12 @@
         "intervieweeName": "Al Power",
         "intervieweeSocial": [
             {
-                "type": "twitter",
-                "fields": {
-                    "socialusername": "@alpower"
-                }
+                "title": "@alpower",
+                "href": "https://www.twitter.com/alpower"
             },
             {
-                "type": "website",
-                "fields": {
-                    "socialurl": "https://www.alpower.com",
-                    "displayUrl": "www.alpower.com"
-                }
+                "href": "https://www.alpower.com",
+                "title": "www.alpower.com"
             }
         ],
         "body": [
@@ -460,24 +433,16 @@
         "intervieweeName": "Cassie Evans",
         "intervieweeSocial": [
             {
-                "type": "website",
-                "fields": {
-                    "socialurl": "https://www.cassie.codes/",
-                    "displayUrl": "cassie.codes"
-                }
+                "href": "https://www.cassie.codes/",
+                "title": "cassie.codes"
             },
             {
-                "type": "twitter",
-                "fields": {
-                    "socialusername": "@cassiecodes"
-                }
+                "title": "@cassiecodes",
+                "href": "https://www.twitter.com/cassiecodes"
             },
             {
-                "type": "website",
-                "fields": {
-                    "socialurl": "https://codepen.io/cassie-codes/",
-                    "displayUrl": "codepen.io/cassie-codes"
-                }
+                "href": "https://codepen.io/cassie-codes/",
+                "title": "codepen.io/cassie-codes"
             }
         ],
         "body": [
@@ -573,17 +538,12 @@
         "intervieweeName": "Stephanie Stimac",
         "intervieweeSocial": [
             {
-                "type": "website",
-                "fields": {
-                    "socialurl": "https://stephaniestimac.com",
-                    "displayUrl": "stephaniestimac.com"
-                }
+                "href": "https://stephaniestimac.com",
+                "title": "stephaniestimac.com"
             },
             {
-                "type": "twitter",
-                "fields": {
-                    "socialusername": "@seaotta"
-                }
+                "title": "@seaotta",
+                "href": "https://www.twitter.com/seaotta"
             }
         ],
         "body": [
@@ -679,10 +639,8 @@
         "intervieweeName": "Josh Hudson",
         "intervieweeSocial": [
             {
-                "type": "twitter",
-                "fields": {
-                    "socialusername": "@joshyhud"
-                }
+                "title": "@joshyhud",
+                "href": "https://www.twitter.com/joshyhud"
             }
         ],
         "body": [
@@ -784,16 +742,12 @@
         "intervieweeName": "Sara Vieira",
         "intervieweeSocial": [
             {
-                "type": "twitter",
-                "fields": {
-                    "socialusername": "@NikkitaFTW"
-                }
+                "title": "@NikkitaFTW",
+                "href": "https://www.twitter.com/NikkitaFTW"
             },
             {
-                "type": "github",
-                "fields": {
-                    "socialusername": "SaraVieira"
-                }
+                "title": "SaraVieira",
+                "href": "https://www.github.com/SaraVieira"
             }
         ],
         "body": [
@@ -897,17 +851,12 @@
         "intervieweeName": "Mike Street",
         "intervieweeSocial": [
             {
-                "type": "website",
-                "fields": {
-                    "socialurl": "https://www.mikestreety.co.uk",
-                    "displayUrl": "mikestreety.co.uk"
-                }
+                "href": "https://www.mikestreety.co.uk",
+                "title": "mikestreety.co.uk"
             },
             {
-                "type": "twitter",
-                "fields": {
-                    "socialusername": "@mikestreety"
-                }
+                "title": "@mikestreety",
+                "href": "https://www.twitter.com/mikestreety"
             }
         ],
         "body": [

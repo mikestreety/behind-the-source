@@ -1,0 +1,38 @@
+---
+permalink: rss.xml
+siteName: Behind the Source
+siteUrl: https://www.behindthesource.co.uk
+description: A series of interviews with the people behind the websites. These stories show there isn&#039;t only one way into the web
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ siteName }}</title>
+		<link>{{ siteUrl }}</link>
+		<description>{{ description }}</description>
+		<language>en-us</language>
+		<pubDate>{{ page.date.toUTCString() }}</pubDate>
+		<lastBuildDate>{{ page.date.toUTCString() }}</lastBuildDate>
+		<atom:link href="{{ siteUrl }}/{{ permalink }}" rel="alternate" type="application/xml" />
+		<image>
+			<url>{{ siteUrl }}assets/img/android-chrome-512x512.png</url>
+			<title>{{ siteName }}</title>
+			<link>{{ siteUrl }}</link>
+			<width>144</width>
+			<height>144</height>
+			<description>{{ description }}</description>
+		</image>
+        {% for entry in s01 %}
+		<item>
+			<title>{{ entry.title }} - {{ entry.heading }}</title>
+			<link>https://www.behindthesource.co.uk/interviews/{{ entry.slug }}</link>
+			<pubDate>{{ entry.postDate }}</pubDate>
+			<guid>https://www.behindthesource.co.uk/interviews/{{ entry.slug }}</guid>
+			<description><![CDATA[
+				<h1>{{ entry.heading }}</h1><h2>{{ entry.title }} ~ {{ entry.intervieweeName }}</h2>{{ entry.intro }}<p><a href="https://www.behindthesource.co.uk/interviews/{{ entry.slug }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
+			]]></description>
+		</item>
+		{% endfor %}
+		
+	</channel>
+</rss>

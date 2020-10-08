@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "production": "npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy  --serve"
+    "watch": "set DEBUG=Eleventy* && npx @11ty/eleventy  --serve"
   },
   "keywords": [],
   "author": "",
