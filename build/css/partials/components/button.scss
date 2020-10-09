@@ -1,0 +1,16 @@
+.button {
+	padding: 0.5rem 1rem;
+	background: var(--primary);
+	border: 0;
+	font-family: inherit;
+	font-size: 0.9rem;
+	cursor: pointer;
+	color: var(--base);
+	transition: 0.2s ease;
+	transition-property: background, color;
+
+	&:hover {
+		background: var(--secondary);
+		color: var(--neutralLightest);
+	}
+}

@@ -1,0 +1,30 @@
+form input[type='email'] {
+	padding: 0.5rem;
+	border: thin solid var(--neutralMid);
+	width: 100%;
+	font-size: 1rem;
+}
+form > .wrapper {
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	line-height: 1;
+
+	@media (max-width: 30rem) {
+		flex-direction: column;
+	}
+	* {
+		@media (max-width: 30rem) {
+			width: 100%;
+		}
+	}
+
+}
+form .field {
+	flex-grow: 1;
+	padding: 0 var(--gutter);
+
+	@media (max-width: 30rem) {
+		padding: var(--gutter) 0;
+	}
+}

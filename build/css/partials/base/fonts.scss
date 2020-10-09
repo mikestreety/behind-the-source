@@ -1,0 +1,14 @@
+/* dm-serif-display-regular - latin */
+@font-face {
+	font-family: 'DM Serif Display';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('/assets/fonts/dm-serif-display-v4-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('DM Serif Display Regular'), local('DMSerifDisplay-Regular'),
+		url('/assets/fonts/dm-serif-display-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('/assets/fonts/dm-serif-display-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('/assets/fonts/dm-serif-display-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+		url('/assets/fonts/dm-serif-display-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('/assets/fonts/dm-serif-display-v4-latin-regular.svg#DMSerifDisplay') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,14 @@
+.signup {
+	padding: var(--gutter) 0;
+	border: solid var(--secondary);
+	border-width: 0.3rem 0;
+	margin: var(--gutterLarge) 0;
+}
+.signup h2 {
+	margin: 0 0 1.5rem;
+	font-size: 1.6rem;
+
+	&::after {
+		display: none;
+	}
+}
