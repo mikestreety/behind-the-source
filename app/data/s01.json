@@ -6,6 +6,8 @@
         "heading": "I love how fast the industry moves. It’s kind of a joke to everyone how many frameworks there are but it’s great to see all of the opportunities to learn",
         "intro": "<p>Cassidy is the absolute boss when it comes to making web dev memes, newsletters and jokes (there is one in every <a href=\"https://cassidoo.co/newsletter/\">rendezvous</a> email). I was super stoked when she agreed to answer my questions and it's great to read about how she got where she is.</p>",
         "intervieweeName": "Cassidy Williams",
+        "intervieweePhoto": "/assets/img/interviews/people/s01e08.jpg",
+        "intervieweeSocialImage": "/assets/img/social-media/s01e08.png",
         "intervieweeSocial": [
             {
                 "href": "https://cassidoo.co/",
@@ -118,6 +120,8 @@
         "heading": "I love how sharing the industry is. So many people freely give away their knowledge, learnings and code for practically anyone else to use.",
         "intro": "<p>Matt is one of those elusive people on Twitter I have followed for ages, never really engaged with but have always enjoyed the mix of tweets about web dev and his daughter. He seems to follow and talk to a lot of people I follow and talk to, so it only seemed natural when he reached out about being involved in this project. I've found it rare to find a \"real-life\" picture of Matt, so when I saw the one above I realised he looked nothing like I imagined.</p>",
         "intervieweeName": "Matt Stow",
+        "intervieweePhoto": "/assets/img/interviews/people/s01e07.jpg",
+        "intervieweeSocialImage": "/assets/img/social-media/s01e07.png",
         "intervieweeSocial": [
             {
                 "title": "@stowball",
@@ -218,6 +222,8 @@
         "heading": "Some days I just feel like I’m playing a game and it almost doesn’t feel like a real job",
         "intro": "<p>Stuart approached me when I first floated the idea of Behind the Source to Codebar where he is a coach in Bristol. He had some helpful tips (and was one of the first to hear the name). This kind of interview is why I wanted to do this in the first place; you can tell Stuart is passionate about the web and loves what he does.</p>",
         "intervieweeName": "Stuart Nelson",
+        "intervieweePhoto": "/assets/img/interviews/people/s01e06.png",
+        "intervieweeSocialImage": "/assets/img/social-media/s01e06.png",
         "intervieweeSocial": [
             {
                 "href": "https://northernbadger.co.uk/",
@@ -308,13 +314,6 @@
                     "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
                     "answer": "<p>I wish I’d learnt JavaScript differently. I learnt in dribs and drabs and got <em>very</em> stuck at the start. It meant there are some things now I get stuck on that I feel if I’d learnt in a more structured way at the start, I’d be in a better place now.<br /><br />I would have looked for a permanent role sooner/looked to attend something like <a href=\"http://codebar\">Codebar</a> to learn with others. As soon as I got into a team at my first agency, Mr B &amp; Friends my skills exponentially accelerated. It wasn't just having senior people around me to help me when I was stuck. I found that by simply sitting with them while they worked taught me a lot. It also made me feel a lot better about being stuck because everyone was getting stuck sometimes - even the lead dev with 10 years experience.</p>"
                 }
-            },
-            {
-                "type": "signupForm",
-                "fields": {
-                    "heading": "Signup to the newsletter",
-                    "text": null
-                }
             }
         ]
     },
@@ -325,6 +324,8 @@
         "heading": "One can’t help being inspired by going online and seeing what people are sharing",
         "intro": "<p>An absolutely legendary name, for a legendary hero. I was racking my brains as to how I met Al Power and I cannot, for the life of me, remember. We've known each other digitally for many years and have often bumped into each other at local conferences (including my own!). Al Power knows his stuff and (until I read this interview) I realised I didn't actually know that much about the man. He is one of the nicest people you'll meet and it is an honour to have him as part of this project.</p>",
         "intervieweeName": "Al Power",
+        "intervieweePhoto": "/assets/img/interviews/people/s01e05.jpg",
+        "intervieweeSocialImage": "/assets/img/social-media/s01e05.png",
         "intervieweeSocial": [
             {
                 "title": "@alpower",
@@ -431,6 +432,8 @@
         "heading": "The thing I appreciate the most is that the web industry doesn’t stand still. You’re constantly learning.",
         "intro": "<p>Cassie is an incredible front-end developer from Brighton. I've followed (and been a fan of) her since she started at <a href=\"https://clearleft.com/\">Clearleft</a>. Watching her go from front-end developer to international speaking superstar has been a joy (I'm sure <a href=\"https://www.bytesconf.co.uk/\">Bytesconf</a> had a big hand it that) and I was super stoked when she agreed to feature in this series.</p>",
         "intervieweeName": "Cassie Evans",
+        "intervieweePhoto": "/assets/img/interviews/people/s01e04.jpg",
+        "intervieweeSocialImage": "/assets/img/social-media/s01e04.png",
         "intervieweeSocial": [
             {
                 "href": "https://www.cassie.codes/",
@@ -519,13 +522,6 @@
                     "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
                     "answer": "<p>There was a tweet I saw the other day by David Khourshid that said: </p><blockquote>“It's amazing how often the difference between \"I'll never understand how to do this\" and \"I'm pretty comfortable doing this\" is literally just trying it once.”</blockquote><p>When I started learning how to code, I was pretty nervous of trying new things. I put off learning JS for a long time, which I don’t regret at all, It lead to some very fun CSS only experiments! But I think if I could go back and start again, I’d try to be less nervous of giving new things a go.</p><p>This is actually valid advice for current-me too.</p>\n\n\n"
                 }
-            },
-            {
-                "type": "signupForm",
-                "fields": {
-                    "heading": "Sign up to the newsletter",
-                    "text": null
-                }
             }
         ]
     },
@@ -536,6 +532,8 @@
         "heading": "I work on the thing that gives millions of people access to the internet and I get to empower developers to build for it",
         "intro": "<p>I came across Stephanie when I was listening to <a href=\"https://www.smashingmagazine.com/2020/01/smashing-podcast-episode-8/\">Episode 8</a> of the the Smashing Podcast. I was in the process of curating Series One and thought it would be fascinating to have a developer who works on a browser as part of the series. The <a href=\"https://webwewant.fyi/\">Web We Want</a> initiative is awesome and despite the stigma that working on Microsoft Edge sometimes has, it sounds like, with the move the Chromium, Microsoft are really pushing the web and its standards forward.</p>",
         "intervieweeName": "Stephanie Stimac",
+        "intervieweePhoto": "/assets/img/interviews/people/s01e03.jpg",
+        "intervieweeSocialImage": "/assets/img/social-media/s01e03.png",
         "intervieweeSocial": [
             {
                 "href": "https://stephaniestimac.com",
@@ -620,13 +618,6 @@
                     "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
                     "answer": "<p>Honestly, I wouldn’t. </p>\n<p>The path I took led me to a job that I love and I wouldn’t do anything differently. For me, I’m lucky that I get to learn as a part of my job. I get to keep my finger on what’s hot in the dev community, what tools are people using, what framework, etc. And I believe you should never stop learning because there’s always something new <em>to </em>learn. If you went to university, you don’t graduate knowing it all, and perhaps that’s one thing I wish I could tell myself: it’s okay to not know it all, you don’t know and you never will, but curiosity and willingness to learn new things will take you far.</p>"
                 }
-            },
-            {
-                "type": "signupForm",
-                "fields": {
-                    "heading": "Enjoyed the interview?",
-                    "text": "Signup to be notified when the next one goes live"
-                }
             }
         ]
     },
@@ -637,6 +628,8 @@
         "heading": "If you do interview, ask them questions. You are interviewing them as well as them interviewing you.",
         "intro": "<p>Josh approached me about being featured in Behind the Source, although he needed no introduction. Having followed him on twitter for a while, I knew exactly who he was. A local (to me) Brighton web developer. I was fascinated to hear his story about how he got into the web industry and how he feels the community is as a whole, from a Junior Developer's point-of-view.</p>",
         "intervieweeName": "Josh Hudson",
+        "intervieweePhoto": "/assets/img/interviews/people/s01e02.jpg",
+        "intervieweeSocialImage": "/assets/img/social-media/s01e02.png",
         "intervieweeSocial": [
             {
                 "title": "@joshyhud",
@@ -723,13 +716,6 @@
                     "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
                     "answer": "<p>I’m not really sure what I would have done anything else differently, as for me taking my time to learn new skills with a college evening course would have always been my first point of call. However, if I knew about Codebar earlier I would have gotten more involved with them from the word go, as it's a great place to meet people and learn the basics for free and get help from professionals. I think getting a job I would still be myself today and be honest about my skills and when interviewing. I would still be myself as its not just skills that will get you a job its personality as you have to fit in with the people you work with.</p>"
                 }
-            },
-            {
-                "type": "signupForm",
-                "fields": {
-                    "heading": "Register for updates",
-                    "text": null
-                }
             }
         ]
     },
@@ -740,6 +726,8 @@
         "heading": "Sometimes we lose track that the web was built for people and not for just us",
         "intro": "<p>Sara and I have followed each other on twitter for a long time. When I started publishing tutorial YouTube videos, she was one of the first (and only) to encourage me. This small act of kindness means that I have a huge amount of respect for her and have learnt that she is pretty dope. When this project progressed from an idea to realisation, she was top of my list to ask to be involved and I was ecstatic when she said yes.</p><p>You may recognise her from speaking at many different conferences, <a href=\"https://leanpub.com/opinionated-guide-to-react\">from her book</a>, or just from being kick-ass on Twitter. Or you might not - that doesn't matter.</p>",
         "intervieweeName": "Sara Vieira",
+        "intervieweePhoto": "/assets/img/interviews/people/s01e01.jpg",
+        "intervieweeSocialImage": "/assets/img/social-media/s01e01.png",
         "intervieweeSocial": [
             {
                 "title": "@NikkitaFTW",
@@ -832,13 +820,6 @@
                     "question": "Knowing what you know now, if you were to start again in the industry would you do anything differently?",
                     "answer": "<p>I would not have been a developer advocate.</p><p>A developer advocate is someone who gets paid to travel the world and teach people things, or that’s what they sell you on. In the end, you (or at least me) ,end up being a fancy PR person that can make buttons. It also requires so <em>muuuuch</em> traveling, which was spiralling me into a mental breakdown. </p><p>Most of my joy in this job comes from coding and building things. I like teaching people but after being a developer advocate and a developer, I learned that I can get the best of being a developer advocate and do it in a developer position, all it takes is finding a good company.</p>"
                 }
-            },
-            {
-                "type": "signupForm",
-                "fields": {
-                    "heading": "Enjoyed the interview?",
-                    "text": "Sign up to be notified when the next one goes live"
-                }
             }
         ]
     },
@@ -849,6 +830,8 @@
         "heading": "Introducing our interviewees...",
         "intro": "<p>Here's a sneak peak as to who is coming up in the first series of Behind the Source.</p>",
         "intervieweeName": "Mike Street",
+        "intervieweePhoto": "/assets/img/interviews/people/s01e00.jpg",
+        "intervieweeSocialImage": "/assets/img/social-media/s01e00.png",
         "intervieweeSocial": [
             {
                 "href": "https://www.mikestreety.co.uk",
@@ -863,14 +846,7 @@
             {
                 "type": "rte",
                 "fields": {
-                    "text": "<p>Hello and welcome to the first series of Behind the Source. I've spent the last few months sourcing, persuading and pleading with people to be interviewed, so we can take a peak behind the masks of developers, designers and people in the web.</p>\n<p>Lined up I have 8 fantastic interviews with people from all walks of life and have posed to them the same 8 questions about their jobs, their backgrounds, their feelings about the industry and what tools they use to do their work.</p>\n<p>Over the course of the series, you'll notice a theme which runs through each of the interviews. It is one that will probably come as no surprise. Our industry is filled with lovely, open, sharing people but also intoxicated with prejudice, gatekeeping cliques. I hope, for everyone's sake, the former outweigh the latter.</p>\n<p>I would like to thank every single one of the interviewees for giving up their time to answer the questions.</p>\n<p>Make sure you <a href=\"{entry:236@1:url}\">Sign up to the newsletter</a> or <a href=\"/rss\">subscribe to the RSS feed</a> to be kept up to date.</p>\n<h2>Episode Guide</h2>\n<p>The following interviews will be going live over the next couple of months. Each Monday at 9am BST, starting on 4th May 2020.</p>\n<ol><li><strong><a href=\"{entry:590@1:url}\">S01E01</a>: Sara Vieira</strong> (<a href=\"https://twitter.com/NikkitaFTW\">@NikkitaFTW</a>)<strong> </strong>- 4th May 2020</li><li><strong><strong><a href=\"{entry:883@1:url}\">S01E02</a>: </strong>Josh Hudson</strong> (<a href=\"https://twitter.com/joshyhud\">@joshyhud</a>) - 11th May 2020</li><li><strong><strong><a href=\"{entry:764@1:url}\">S01E03</a>: </strong>Stephanie Stimac</strong> (<a href=\"https://twitter.com/seaotta\">@seaotta</a>) - 18th May 2020</li><li><strong><strong><a href=\"{entry:2694@1:url}\">S01E04</a>: </strong>Cassie Evans</strong> (<a href=\"https://twitter.com/cassiecodes\">@cassiecodes</a>) - 25th May 2020</li><li><strong><strong><a href=\"{entry:1417@1:url}\">S01E05</a>: </strong>Al Power</strong> (<a href=\"https://twitter.com/alpower\">@alpower</a>) - 6th July 2020</li><li><strong><strong><a href=\"https://www.behindthesource.co.uk/interviews/s01e06-stuart-nelson\">S01E06</a>: </strong>Stuart Nelson</strong> (<a href=\"https://twitter.com/stuartjnelson\">@stuartjnelson</a>) - 13th July 2020</li><li><strong><strong><a href=\"https://www.behindthesource.co.uk/interviews/s01e07-matt-stow\">S01E07</a>: </strong>Matt Stow</strong> (<a href=\"https://twitter.com/stowball\">@stowball</a>) - 20th July 2020<a href=\"https://www.behindthesource.co.uk/interviews/s01e08\"><br /></a></li><li><strong><a href=\"https://www.behindthesource.co.uk/interviews/s01e08\">S01E08</a>: Cassidy Williams</strong> (<a href=\"https://twitter.com/cassidoo\">@cassidoo</a>)- 27th July 2020</li></ol>"
-                }
-            },
-            {
-                "type": "signupForm",
-                "fields": {
-                    "heading": "Like what you see?",
-                    "text": "Want to be in the know? Sign up to the mailing list!"
+                    "text": "<p>Hello and welcome to the first series of Behind the Source. I've spent the last few months sourcing, persuading and pleading with people to be interviewed, so we can take a peak behind the masks of developers, designers and people in the web.</p>\n<p>Lined up I have 8 fantastic interviews with people from all walks of life and have posed to them the same 8 questions about their jobs, their backgrounds, their feelings about the industry and what tools they use to do their work.</p>\n<p>Over the course of the series, you'll notice a theme which runs through each of the interviews. It is one that will probably come as no surprise. Our industry is filled with lovely, open, sharing people but also intoxicated with prejudice, gatekeeping cliques. I hope, for everyone's sake, the former outweigh the latter.</p>\n<p>I would like to thank every single one of the interviewees for giving up their time to answer the questions.</p>\n<p>Make sure you <a href=\"\">Sign up to the newsletter</a> or <a href=\"/rss\">subscribe to the RSS feed</a> to be kept up to date.</p>\n<h2>Episode Guide</h2>\n<p>The following interviews will be going live over the next couple of months. Each Monday at 9am BST, starting on 4th May 2020.</p>\n<ol><li><strong><a href=\"\">S01E01</a>: Sara Vieira</strong> (<a href=\"https://twitter.com/NikkitaFTW\">@NikkitaFTW</a>)<strong> </strong>- 4th May 2020</li><li><strong><strong><a href=\"\">S01E02</a>: </strong>Josh Hudson</strong> (<a href=\"https://twitter.com/joshyhud\">@joshyhud</a>) - 11th May 2020</li><li><strong><strong><a href=\"\">S01E03</a>: </strong>Stephanie Stimac</strong> (<a href=\"https://twitter.com/seaotta\">@seaotta</a>) - 18th May 2020</li><li><strong><strong><a href=\"}\">S01E04</a>: </strong>Cassie Evans</strong> (<a href=\"https://twitter.com/cassiecodes\">@cassiecodes</a>) - 25th May 2020</li><li><strong><strong><a href=\"\">S01E05</a>: </strong>Al Power</strong> (<a href=\"https://twitter.com/alpower\">@alpower</a>) - 6th July 2020</li><li><strong><strong><a href=\"https://www.behindthesource.co.uk/interviews/s01e06-stuart-nelson\">S01E06</a>: </strong>Stuart Nelson</strong> (<a href=\"https://twitter.com/stuartjnelson\">@stuartjnelson</a>) - 13th July 2020</li><li><strong><strong><a href=\"https://www.behindthesource.co.uk/interviews/s01e07-matt-stow\">S01E07</a>: </strong>Matt Stow</strong> (<a href=\"https://twitter.com/stowball\">@stowball</a>) - 20th July 2020<a href=\"https://www.behindthesource.co.uk/interviews/s01e08\"><br /></a></li><li><strong><a href=\"https://www.behindthesource.co.uk/interviews/s01e08\">S01E08</a>: Cassidy Williams</strong> (<a href=\"https://twitter.com/cassidoo\">@cassidoo</a>)- 27th July 2020</li></ol>"
                 }
             }
         ]

@@ -8,7 +8,8 @@
     "watch:11ty": "set DEBUG=Eleventy* && npx @11ty/eleventy  --serve",
     "prod:assets": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch:assets": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "npm run watch:assets & npm run watch:11ty"
+    "watch": "npm run watch:assets & npm run watch:11ty",
+    "prod": "npm run prod:assets & npm run prod:11ty"
   },
   "keywords": [],
   "author": "",

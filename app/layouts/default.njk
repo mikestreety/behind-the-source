@@ -21,7 +21,7 @@ description: A series of interviews with the people behind the websites. These s
 	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/png; charset=binary">
 	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
-	<meta name="description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}"/>
+	<meta name="description" content="{{ seoPageDescription }}"/>
 	<meta name="author" content="Mike Street">
 
 	<meta property="twitter:card" content="summary_large_image">
@@ -34,11 +34,11 @@ description: A series of interviews with the people behind the websites. These s
 	<meta property="og:site_name" content="{{ seoTitle }}">
 	<meta property="og:title" content="{{ seoPageTitle }}">
 	{% if socialMediaPhoto is defined  %}
-	<meta property="og:image" property="twitter:image" name="image" content="{{ siteUrl | trim('/') }}{{ socialMediaPhoto.getUrl() }}">
+	<meta property="og:image" property="twitter:image" name="image" content="https://www.behindthesource.co.uk{{ socialMediaPhoto  }}">
 	<meta property="og:image:width" content="1300">
 	<meta property="og:image:height" content="650">
 	{% else %}
-	<meta property="og:image" property="twitter:image" name="image" content="https://www.behindthesource.co.uk/uploads/social-media/bts-social.png">
+	<meta property="og:image" property="twitter:image" name="image" content="https://www.behindthesource.co.uk/assets/img/social-media/bts-social.png">
 	{% endif %}
 	<meta property="og:description" property="twitter:description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}">
 
@@ -96,7 +96,7 @@ description: A series of interviews with the people behind the websites. These s
 
 		<footer class="footer">
 			<div class="container">
-				<p><a href="/rss">Subscribe to RSS</a> | <a href="/signup">Sign up to the newsletter</a></p>
+				<p><a href="/rss.xml">Subscribe to RSS</a> | <a href="/signup">Sign up to the newsletter</a></p>
 				<p>Copyright <a href="https://www.mikestreety.co.uk/">Mike Street</a>. </p>
 			</div>
 		</footer>

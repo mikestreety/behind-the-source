@@ -5,6 +5,7 @@ eleventyComputed:
     title: "{{ entry.title }}: {{ entry.intervieweeName }}"
     seoPageTitle: "{{ entry.title }}: {{ entry.intervieweeName }}"
     seoPageDescription: "{{ entry.heading }} - {{ entry.intervieweeName }} is interviewed for Behind the Source"
+    socialMediaPhoto: "{{ entry.intervieweeSocialImage }}"
 ---
 <div itemscope itemtype="http://schema.org/PublicationIssue" class="interviewSingle">
 
@@ -19,7 +20,7 @@ eleventyComputed:
 
 	<div class="who" itemscope itemtype="http://schema.org/Person">
 		<div class="">
-			<img itemprop="image" src="" width="" height="" alt="{{ entry.intervieweeName }}">
+			<img itemprop="image" src="{{ entry.intervieweePhoto }}" width="200" height="200" alt="{{ entry.intervieweeName }}">
 		</div>
 		<div class="">
 			<h2 itemprop="name">{{ entry.intervieweeName }}</h2>
@@ -51,8 +52,27 @@ eleventyComputed:
 				</cite>
 			</div>
 			{%- endif %}
+			{%- if item.type == 'rte' %}
+			<div>{{ item.fields.text | safe }}</div>
+			{%- endif %}
 		{% endfor %}
+
+		{% include 'signup.njk' %}
 	</div>
 	<p>If you enjoyed this interview, would you consider <a href="https://www.buymeacoffee.com/mikestreety">buying us a round</a>? Make sure you mention {{ entry.intervieweeName }} in the message and i'll make sure they get half. Thank you.</p>
+
+	<nav class="entryNavigation">
+		<h2>Other interviews</h2>
+		<ol class="interviewListing">
+		{% set entry = pagination.page.previous %}
+		{% if entry %}
+			{% include 'entry.njk' %}
+		{% endif %}
+		{% set entry = pagination.page.next %}
+		{% if entry %}
+			{% include 'entry.njk' %}
+		{% endif %}
+		</ol>
+	</nav>
 </div>
 

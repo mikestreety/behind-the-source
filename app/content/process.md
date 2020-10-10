@@ -1,6 +1,6 @@
 ---
-title: The Interview Process
 layout: page.njk
+title: The Interview Process
 seoTitle: The process of being interviewed
 seoPageDescription: How does being interviewed work? The process of being interviewed is entirely done by Google Docs, so you can do it when you feel comforatable
 ---
