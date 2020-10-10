@@ -13,8 +13,4 @@ mix
     })
     .setPublicPath('html/assets');
 
-if (mix.inProduction()) {
-    mix.version();
-} else {
-    mix.disableNotifications();
-}
+mix.disableNotifications();
