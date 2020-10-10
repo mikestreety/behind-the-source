@@ -5,7 +5,7 @@
 
 [[redirects]]
 	from = "/rss"
-	to = "/rss.xml
+	to = "/rss.xml"
 	status = 301
 
 [[headers]]
