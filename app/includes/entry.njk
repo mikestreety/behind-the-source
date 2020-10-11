@@ -1,22 +1,21 @@
-
 <li itemprop="hasPart" itemscope itemtype="http://schema.org/PublicationIssue">
-    <a href="/interviews/{{ entry.slug }}">
-        <div class="post-link-photo">
-            <img itemprop="image" src="{{ entry.intervieweePhoto }}" width="200" height="200" alt="{{ entry.intervieweeName }}">
-        </div>
-        <div class="post-link-wrap">
-            <div class="post-link">
-                <h2>{{ entry.heading }}</h2>
+	<a href="/interviews/{{ entry.slug }}">
+		<div class="post-link-photo">
+			<img itemprop="image" src="{{ entry.intervieweePhoto }}" width="200" height="200" alt="{{ entry.intervieweeName }}">
+		</div>
+		<div class="post-link-wrap">
+			<div class="post-link">
+				<h2>{{ entry.heading }}</h2>
 
-                <p class="about">
-                    <span itemprop="about">{{ entry.intervieweeName }}</span>
-                    <time datetime="{{ entry.postDate }}" itemprop="datePublished">
-                        {{ entry.postDate | readableDate }}
-                    </time>
-                    <span class="meta" itemprop="issueNumber">#{{ entry.title }}</span>
-                </p>
-            </div>
-            {{ entry.intro | cleanAndTrim }}&hellip;
-        </div>
-    </a>
+				<p class="about">
+					<span itemprop="about">{{ entry.intervieweeName }}</span>
+					<time datetime="{{ entry.postDate }}" itemprop="datePublished">
+						{{ entry.postDate | readableDate }}
+					</time>
+					<span class="meta" itemprop="issueNumber">#{{ entry.title }}</span>
+				</p>
+			</div>
+			{{ entry.intro | cleanAndTrim }}&hellip;
+		</div>
+	</a>
 </li>
