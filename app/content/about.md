@@ -11,6 +11,8 @@ If you were to believe Twitter, you would think every developer is changing thei
 
 Talking to real developers, each post highlights no-one is the same, there is no one "golden bullet" to get a job and that nearly everyone has technical debt in their toolkit. No matter how you view the tech industry, these posts highlight the many pitfalls and blessings within the web industry.
 
-Some posts are anonymous, allowing those that wish to remain unknown to air their grievances without professional repercussions. If you do manage to identify those whose identities have been changed, I ask for you to keep it to yourself as your little secret.
+Interested in being interviewed? Read about the [interview process](/process). Alternatively, [sign up](/signup) to the newsletter to be kept up-to-date when a new interview goes live.
 
-Interested in being interviewed? Read about the [interview process](/process). Alternatively, [sign up](/) to the newsletter to be kept up-to-date when a new interview goes live.
+---
+
+This site is run on [11ty](https://www.11ty.dev/), powered by [Netlify](https://www.netlify.com/) and optimised with [Cloudflare](https://www.cloudflare.com/). If you are interesting in how it is made, you can find the repository on [Gitlab](https://gitlab.com/streety-sites/behind-the-source).
