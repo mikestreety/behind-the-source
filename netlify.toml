@@ -8,6 +8,10 @@
 	to = "/rss.xml"
 	status = 301
 
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/assets/img/favicon.ico"
+
 [[headers]]
 	for = "/*"
 
