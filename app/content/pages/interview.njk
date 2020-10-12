@@ -1,6 +1,10 @@
 ---
 layout: default.njk
-
+pagination:
+  data: s01
+  size: 1
+  alias: entry
+permalink: "interviews/{{ entry.slug | slug }}/"
 eleventyComputed:
   title: "{{ entry.title }}: {{ entry.intervieweeName }}"
   seoPageTitle: "{{ entry.title }}: {{ entry.intervieweeName }}"
@@ -75,4 +79,3 @@ eleventyComputed:
 		</ol>
 	</nav>
 </div>
-

@@ -1,5 +1,6 @@
 ---
-layout: default.njk
+permalink: /
+layout: 'default.njk'
 seoPageTitle: Interviews with people who make the web
 seoPageDescription: Behind the Source is a blog by Mike Street. It highlights the different routes and entry points into the web and the technology used to get there.
 ---
@@ -15,12 +16,12 @@ seoPageDescription: Behind the Source is a blog by Mike Street. It highlights th
 	<h2 itemprop="volumeNumber">Series One</h2>
 	<ol class="interviewListing">
 	{% for entry in s01 %}
-		{% include entry.njk %}
+		{% include 'entry.njk' %}
 	{% endfor %}
 	</ol>
 </div>
 
-{% include signup.njk %}
+{% include 'signup.njk' %}
 
 <div class="text">
 	<p><strong>Behind the Source</strong> is a blog by <a href="https://www.mikestreety.co.uk/">Mike Street</a>. It highlights the different routes and entry points into the web and the technology used to get there. </p>
