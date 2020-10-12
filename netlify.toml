@@ -1,16 +1,6 @@
 [build]
 	publish = "html/"
-	# Default build command.
 	command = "npm run prod"
-
-[[redirects]]
-	from = "/rss"
-	to = "/rss.xml"
-	status = 301
-
-[[redirects]]
-  from = "/favicon.ico"
-  to = "/assets/img/favicon.ico"
 
 [[headers]]
 	for = "/*"
@@ -20,3 +10,58 @@
 		Content-Security-Policy = "frame-ancestors 'none';"
 		X-Frame-Options = "DENY"
 		X-XSS-Protection = "1; mode=block"
+
+[[redirects]]
+	from = "/rss"
+	to = "/rss.xml"
+	status = 301
+
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/assets/img/favicon.ico"
+  status = 301
+
+[[redirects]]
+  from = "/s01e00"
+  to = "/interviews/s01e00-pilot"
+  status = 301
+
+[[redirects]]
+  from = "/s01e01"
+  to = "/interviews/s01e01-sara-vieira"
+  status = 301
+
+[[redirects]]
+  from = "/s01e02"
+  to = "/interviews/s01e02-josh-hudson"
+  status = 301
+
+[[redirects]]
+  from = "/s01e03"
+  to = "/interviews/s01e03-stephanie-stimac"
+  status = 301
+
+[[redirects]]
+  from = "/s01e04"
+  to = "interviews/s01e04-cassie-evans"
+  status = 301
+
+[[redirects]]
+  from = "/s01e05"
+  to = "interviews/s01e05-al-power"
+  status = 301
+
+[[redirects]]
+  from = "/s01e06"
+  to = "/interviews/s01e06-stuart-nelson"
+  status = 301
+
+[[redirects]]
+  from = "/s01e07"
+  to = "/interviews/s01e07-matt-stow"
+  status = 301
+
+[[redirects]]
+  from = "/s01e08"
+  to = "/interviews/s01e08-cassidy-williams"
+  status = 301
