@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-seoTitle: About Behind the Source and who made it
+seoPageTitle: About Behind the Source and who made it
 seoPageDescription: What is Behind the Source? It explores the web industry and those that build it. Sharing the varying ways people get into the web and their view on the industry
 title: About
 ---

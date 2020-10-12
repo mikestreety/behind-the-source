@@ -28,3 +28,10 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+hr {
+	margin: var(--gutter) 0;
+	background: transparent;
+	height: 0;
+	border-top: thin solid var(--neutralLight);
+}
