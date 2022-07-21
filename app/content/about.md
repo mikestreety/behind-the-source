@@ -24,4 +24,4 @@ Interested in being interviewed? Read about the [interview process](/process). A
 
 ---
 
-This site is run on [11ty](https://www.11ty.dev/), powered by [Netlify](https://www.netlify.com/) and optimised with [Cloudflare](https://www.cloudflare.com/). If you are interesting in how it is made, you can find the repository on [Gitlab](https://gitlab.com/streety-sites/behind-the-source).
+This site is run on [11ty](https://www.11ty.dev/), powered by [Cloudflare Pages](https://www.cloudflare.com/). If you are interesting in how it is made, you can find the repository on [Gitlab](https://gitlab.com/streety-sites/behind-the-source).

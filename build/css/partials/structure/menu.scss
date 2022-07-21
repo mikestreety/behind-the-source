@@ -81,6 +81,7 @@
 		margin-top: 1rem;
 		border: 0.125rem solid var(--neutralLight);
 		z-index: 50;
+		display: none;
 
 		li + li {
 			border-top: thin solid var(--neutralLight);
