@@ -3,9 +3,18 @@ layout: page.njk
 seoPageTitle: About Behind the Source and who made it
 seoPageDescription: What is Behind the Source? It explores the web industry and those that build it. Sharing the varying ways people get into the web and their view on the industry
 title: About
+
 ---
 
-**Behind the Source** is a series of blog posts created and curated by [Mike Street](https://www.mikestreety.co.uk/). Each post is an interview with someone involved in creating the web and answers what they do and how they got there. Along with that, it explores their thoughts on the web industry and how it could be improved.
+**Behind the Source** is a project by [Mike Street](https://www.mikestreety.co.uk/). It explores the people and products behind the web and what makes it. The project started as a series of interviews about the people, but has moved to a podcast about the tech.
+
+## Podcast
+
+The podcast talks to a guest each episode and explores the hows and whys of a particular tech or subject.
+
+## Interviews
+
+The interviews are a series of blog posts created and curated. Each post is an interview with someone involved in creating the web and answers what they do and how they got there. Along with that, it explores their thoughts on the web industry and how it could be improved.
 
 If you were to believe Twitter, you would think every developer is changing their tech stack every week. The latest framework is a must-use for building your website and if you're still using last week's one you are left behind. This isn't the case; this series of interviews aims to expose that.
 

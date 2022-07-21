@@ -2,7 +2,8 @@
 layout: page.njk
 title: The Interview Process
 seoPageTitle: The process of being interviewed
-seoPageDescription: How does being interviewed work? The process of being interviewed is entirely done by Google Docs, so you can do it when you feel comforatable
+seoPageDescription: How does being interviewed work? The process of being interviewed is entirely done by Google Docs, so you can do it when you feel comfortable
+permalink: /interviews/process
 ---
 
 Not everyone is comfortable talking in front of a microphone, nor is it always practical to meet up - that's why all of the interviews for **Behind the Source** are done via Google Docs.
