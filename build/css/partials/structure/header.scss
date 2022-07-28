@@ -38,6 +38,10 @@
 			@media (max-width: 30rem) {
 				display: none;
 			}
+			@media (min-width: 30rem) {
+				transform: translateX(0) scaleX(1);
+				opacity: 1;
+			}
 		}
 
 		&:hover {
