@@ -14,13 +14,15 @@ The podcast talks to a guest each episode and explores the hows and whys of a pa
 
 ## Interviews
 
+**[Read the interviews](/interviews/)**
+
 The interviews are a series of blog posts created and curated. Each post is an interview with someone involved in creating the web and answers what they do and how they got there. Along with that, it explores their thoughts on the web industry and how it could be improved.
 
 If you were to believe Twitter, you would think every developer is changing their tech stack every week. The latest framework is a must-use for building your website and if you're still using last week's one you are left behind. This isn't the case; this series of interviews aims to expose that.
 
 Talking to real developers, each post highlights no-one is the same, there is no one "golden bullet" to get a job and that nearly everyone has technical debt in their toolkit. No matter how you view the tech industry, these posts highlight the many pitfalls and blessings within the web industry.
 
-Interested in being interviewed? Read about the [interview process](/process). Alternatively, [sign up](/signup) to the newsletter to be kept up-to-date when a new interview goes live.
+Interested in being interviewed? Read about the [interview process](/interviews/process/). Alternatively, [sign up](/signup) to the newsletter to be kept up-to-date when a new interview goes live.
 
 ---
 
