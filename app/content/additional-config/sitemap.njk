@@ -6,7 +6,7 @@ sitemapIgnore: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 {%- for item in s01 %}
 	<url>
-		<loc>https://www.behindthesource.co.uk/interviews/{{ item.slug }}</loc>
+		<loc>https://www.behindthesource.co.uk/interviews/{{ item.slug }}/</loc>
 		<lastmod>{{ item.postDate | isoDate }}</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>1</priority>
