@@ -41,4 +41,4 @@ Behind the Source podcast is aimed at people who haven't heard of, or worked wit
 
 Any questions, just ask!
 
-Now got and <a href="/podcasts/">listen to the podcasts</a> or <a href="/interviews/">read some interviews</a>.
+Now go and [listen to the podcasts](/podcasts/) or [read some interviews](/interviews/).
