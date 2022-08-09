@@ -1,0 +1,31 @@
+.social {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	li {
+		padding-left: 2.2rem;
+		position: relative;
+		min-height: 2rem;
+	}
+
+	svg {
+		width: 1.8rem;
+		height: 1.8rem;
+		position: absolute;
+		left: 0;
+		fill: var(--secondary);
+		transition: 0.2s ease fill;
+	}
+
+	a:hover svg {
+		fill: var(--base);
+	}
+
+	.website svg {
+		top: 0.3rem;
+		left: 0.3rem;
+		width: auto;
+		height: auto;
+	}
+}

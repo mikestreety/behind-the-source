@@ -1,0 +1,67 @@
+---
+layout: default.njk
+eleventyComputed:
+  title: "{{ title }}: {{ name }}"
+  seoPageTitle: "{{ title }}: {{ name }}"
+  seoPageDescription: "{{ heading | cleanAndTrim(15) }} - {{ name }} is interviewed for Behind the Source"
+  socialMediaPhoto: "{{ ogImage }}"
+---
+<div itemscope itemtype="http://schema.org/PublicationIssue" class="interviewSingle">
+
+	<p class="meta">
+		<span itemprop="issueNumber">#{{ title }}</span>
+		<time datetime="{{ date }}" itemprop="datePublished">
+			{{ date | readableDate }}
+		</time>
+	</p>
+
+	<h1 itemprop="headline">{{ heading }}</h1>
+
+	{% include 'person-card.njk' %}
+
+
+	<div class="intro" itemprop="abstract">{{ intro | safe }}</div>
+
+	<div>
+		{%- for item in body %}
+			{%- if item.type == 'question' %}
+			<dl class="interviewQuestion" itemprop="mainEntity" itemscope itemtype="http://schema.org/Thing">
+				<dt itemprop="name">{{ item.fields.question | safe }}</dt>
+				<dd itemprop="description">
+					{{ item.fields.answer | safe }}
+				</dd>
+			</dl>
+			{%- endif %}
+			{%- if item.type == 'pullquote' %}
+			<div itemscope itemtype="http://schema.org/Quotation">
+				<blockquote itemprop="mainEntity" itemscope itemtype="http://schema.org/Thing">
+					<p itemprop="description">{{ item.fields.quote }}</p>
+				</blockquote>
+				<cite class="isHidden" itemprop="spokenByCharacter" itemscope itemtype="http://schema.org/Person">
+					<meta itemprop="name" content="{{ name }}">
+				</cite>
+			</div>
+			{%- endif %}
+			{%- if item.type == 'rte' %}
+			<div>{{ item.fields.text | safe }}</div>
+			{%- endif %}
+		{% endfor %}
+
+		{% include 'signup.njk' %}
+	</div>
+	<p>If you enjoyed this interview, would you consider <a href="https://www.buymeacoffee.com/mikestreety">buying us a round</a>? Make sure you mention {{ name }} in the message and i'll make sure they get half. Thank you.</p>
+
+	<nav class="entryNavigation">
+		<h2>Other interviews</h2>
+		<ol class="interviewListing">
+		{% set entry = pagination.page.previous %}
+		{% if entry %}
+			{% include 'entry.njk' %}
+		{% endif %}
+		{% set entry = pagination.page.next %}
+		{% if entry %}
+			{% include 'entry.njk' %}
+		{% endif %}
+		</ol>
+	</nav>
+</div>

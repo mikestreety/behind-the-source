@@ -68,9 +68,9 @@ seoDescription: A series of interviews with the people behind the websites. Thes
 						<li class="hasChildren">
 							<a itemprop="url" href="/">Menu</a>
 							<ul itemscope itemtype="http://schema.org/SiteNavigationElement" class="subNav">
-								<li><a itemprop="url" href="/podcasts/">Podcasts</a></li>
-								<li><a itemprop="url" href="/interviews/">Interviews</a></li>
-								<li><a itemprop="url" href="/about/">About</a></li>
+								<li><a itemprop="url" href="/podcasts/" {% if '/podcasts/' == page.url %}class="active"{% endif %}>Podcasts</a></li>
+								<li><a itemprop="url" href="/interviews/" {% if '/interviews/' == page.url %}class="active"{% endif %}>Interviews</a></li>
+								<li><a itemprop="url" href="/about/" {% if '/about/' == page.url %}class="active"{% endif %}>About</a></li>
 							</ul>
 						</li>
 					</ul>
