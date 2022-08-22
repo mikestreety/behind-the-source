@@ -1,0 +1,7 @@
+.podcastSingle {
+	h1 {
+		&::before {
+			display: none;
+		}
+	}
+}

@@ -1,5 +1,5 @@
 {
-	"layout": "interview.njk",
+	"layout": "podcast.njk",
 
 	"parent": "interviews",
 	"parentTitle": "Interviews"

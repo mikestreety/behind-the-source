@@ -1,7 +1,9 @@
 <div class="who" itemscope itemtype="http://schema.org/Person">
+	{%- if photo %}
 	<div class="">
 		<img itemprop="image" src="{{ photo }}" width="80" height="80" alt="{{ name }}">
 	</div>
+	{%- endif %}
 	<div class="">
 		<h2 itemprop="name">{{ name }}</h2>
 		{%- if social %}
