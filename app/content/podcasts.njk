@@ -10,3 +10,12 @@ seoPageDescription:
 <p>Behind the Source podcasts are about understanding the tech that makes up the web.</p>
 
 <p>Read about the <a href="/podcasts/process/">Podcast recording process</a></p>
+
+<div itemprop="hasPart" itemscope itemtype="http://schema.org/PublicationVolume" >
+	<h2 itemprop="volumeNumber">Series Two</h2>
+	<ol class="interviewListing">
+	{% for entry in collections.podcasts %}
+		{% include 'entry-podcast.njk' %}
+	{% endfor %}
+	</ol>
+</div>

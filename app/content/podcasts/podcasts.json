@@ -1,6 +1,5 @@
 {
 	"layout": "podcast.njk",
-
-	"parent": "interviews",
-	"parentTitle": "Interviews"
+	"parent": "podcasts",
+	"parentTitle": "Podcasts"
 }

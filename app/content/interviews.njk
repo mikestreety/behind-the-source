@@ -15,8 +15,8 @@ seoPageDescription: Behind the Source is a blog by Mike Street. It highlights th
 <div itemprop="hasPart" itemscope itemtype="http://schema.org/PublicationVolume" >
 	<h2 itemprop="volumeNumber">Series One</h2>
 	<ol class="interviewListing">
-	{% for entry in s01 %}
-		{% include 'entry.njk' %}
+	{% for entry in collections.interviews %}
+		{% include 'entry-interview.njk' %}
 	{% endfor %}
 	</ol>
 </div>

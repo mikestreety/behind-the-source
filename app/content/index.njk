@@ -9,14 +9,21 @@ seoPageDescription: Behind the Source is a blog by Mike Street. It highlights th
 
 <div class="intro">
 	<p class="featured">Everyone is a junior in something</p>
-	<p>Behind the Source is about exposing the people and tech who make the web<p>
+	<p>Behind the Source is about exploring the people and tech who make the web. The <a href="/podcasts">podcast</a> explores tools, project and processes while the <a href="/interviews">interviews</a> were about finding out about the people who build the web.<p>
 </div>
 
-<h2>Podcast coming soon</h2>
+<h2>Podcasts</h2>
 
-<p>In each episode we will be talking to experts about a particular topic, tech or tool. Sign up below to be kept up-to-date and be in the know when it goes live.</p>
+<p>Coming soong..</p>
 
-<p>In the mean time, you can find out about the <a href="/podcasts/process/">recording process</a></p>
+<div itemprop="hasPart" itemscope itemtype="http://schema.org/PublicationVolume" >
+	<h2 itemprop="volumeNumber" class="isHidden">Series Two</h2>
+	<ol class="interviewListing">
+	{% for entry in collections.podcasts | limit(1) %}
+		{% include 'entry-podcast.njk' %}
+	{% endfor %}
+	</ol>
+</div>
 
 <p>If you have a topic suggestion or would like to be on the show, <a href="mailto:hello@behindthesource.co.uk">drop me an email</a>.</p>
 

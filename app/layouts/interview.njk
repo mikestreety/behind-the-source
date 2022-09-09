@@ -54,13 +54,15 @@ eleventyComputed:
 	<nav class="entryNavigation">
 		<h2>Other interviews</h2>
 		<ol class="interviewListing">
-		{% set entry = pagination.page.previous %}
-		{% if entry %}
-			{% include 'entry.njk' %}
+		{% set previousPost = collections.interviews | getPreviousCollectionItem(page) %}
+		{% if previousPost %}
+			{% set entry = previousPost %}
+			{% include 'entry-interview.njk' %}
 		{% endif %}
-		{% set entry = pagination.page.next %}
-		{% if entry %}
-			{% include 'entry.njk' %}
+		{% set nextPost = collections.interviews | getNextCollectionItem(page) %}
+		{% if nextPost %}
+			{% set entry = nextPost %}
+			{% include 'entry-interview.njk' %}
 		{% endif %}
 		</ol>
 	</nav>

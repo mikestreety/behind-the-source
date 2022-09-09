@@ -1,0 +1,20 @@
+<li itemprop="hasPart" itemscope itemtype="http://schema.org/PublicationIssue">
+	<a href="{{ entry.url }}">
+		<div class="post-link-photo">
+			<img itemprop="image" src="{{ entry.data.photo }}" width="80" height="80" alt="{{ entry.data.name }}">
+		</div>
+		<div class="post-link-wrap">
+			<div class="post-link">
+				<h2>{{ entry.data.title }}</h2>
+				<p class="about">
+					<span itemprop="about">{{ entry.data.name }}</span>
+					<time datetime="{{ entry.date }}" itemprop="datePublished">
+						{{ entry.date | readableDate }}
+					</time>
+					<span class="meta" itemprop="issueNumber">#{{ entry.data.episode }}</span>
+				</p>
+			</div>
+			{{ entry.data.intro | cleanAndTrim }}
+		</div>
+	</a>
+</li>

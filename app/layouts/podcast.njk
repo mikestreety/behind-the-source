@@ -1,5 +1,10 @@
 ---
 layout: default.njk
+eleventyComputed:
+  title: "{{ episode }}: {{ name }}"
+  seoPageTitle: "{{ episode }}: {{ name }}"
+  seoPageDescription: "{{ title | cleanAndTrim(15) }} - {{ name }} is interviewed for Behind the Source"
+  socialMediaPhoto: "{{ ogImage }}"
 ---
 <div itemscope itemtype="http://schema.org/PublicationIssue" class="interviewSingle podcastSingle">
 

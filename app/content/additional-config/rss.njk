@@ -23,17 +23,28 @@ sitemapIgnore: true
 			<height>144</height>
 			<description>{{ description }}</description>
 		</image>
-        {% for entry in s01 %}
+		{% for entry in collections.podcasts %}
 		<item>
-			<title>{{ entry.title }} - {{ entry.heading }}</title>
-			<link>https://www.behindthesource.co.uk/interviews/{{ entry.slug }}</link>
-			<pubDate>{{ entry.postDate }}</pubDate>
-			<guid>https://www.behindthesource.co.uk/interviews/{{ entry.slug }}</guid>
+			<title>{{ entry.data.episode }} - {{ entry.data.title }}</title>
+			<link>https://www.behindthesource.co.uk{{ entry.url }}</link>
+			<pubDate>{{ entry.data.date }}</pubDate>
+			<guid>https://www.behindthesource.co.uk{{ entry.url }}</guid>
 			<description><![CDATA[
-				<h1>{{ entry.heading }}</h1><h2>{{ entry.title }} ~ {{ entry.intervieweeName }}</h2>{{ entry.intro }}<p><a href="https://www.behindthesource.co.uk/interviews/{{ entry.slug }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
+				<h1>{{ entry.data.title }}</h1><h2>{{ entry.data.episode }} ~ {{ entry.data.name }}</h2>{{ entry.data.intro }}<p><a href="https://www.behindthesource.co.uk{{ entry.url }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
 			]]></description>
 		</item>
 		{% endfor %}
-		
+        {% for entry in collections.interviews %}
+		<item>
+			<title>{{ entry.data.title }} - {{ entry.data.heading }}</title>
+			<link>https://www.behindthesource.co.uk{{ entry.url }}</link>
+			<pubDate>{{ entry.data.date }}</pubDate>
+			<guid>https://www.behindthesource.co.uk{{ entry.url }}</guid>
+			<description><![CDATA[
+				<h1>{{ entry.data.heading }}</h1><h2>{{ entry.data.title }} ~ {{ entry.data.name }}</h2>{{ entry.data.intro }}<p><a href="https://www.behindthesource.co.uk/interviews/{{ entry.data.slug }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
+			]]></description>
+		</item>
+		{% endfor %}
+
 	</channel>
 </rss>
