@@ -20,11 +20,23 @@
 		}
 	}
 
+	.people {
+		display: flex;
+		gap: var(--gutter);
+
+		@media (max-width: 40rem) {
+			display: block;
+		}
+		> div {
+			flex-grow: 1;
+		}
+	}
+
 	.who {
 		padding: 1rem;
 		background: var(--neutralLighter);
 		display: flex;
-		margin: calc(var(--gutter) * 2) 0;
+		margin: var(--gutter) 0;
 
 		@media (max-width: 30rem) {
 			flex-direction: column;

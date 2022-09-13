@@ -1,7 +1,7 @@
 h1,
 h2 {
 	font-weight: normal;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	line-height: 1.2;
 	font-family: var(--featureFont);
 	margin: 2.5rem 0 3.5rem;
@@ -22,11 +22,11 @@ h2 {
 }
 h1 {
 	@media (max-width: 30rem) {
-		font-size: 2rem;
+		font-size: 1.7rem;
 	}
 }
 h2 {
-	font-size: 2.25rem;
+	font-size: 2rem;
 	margin-top: 3.5rem;
 
 	&::after {
