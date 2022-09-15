@@ -1,4 +1,4 @@
-<li itemprop="hasPart" itemscope itemtype="http://schema.org/PublicationIssue">
+<li itemprop="hasPart" class="podcast" itemscope itemtype="http://schema.org/PublicationIssue">
 	<a href="{{ entry.url }}">
 		<div class="post-link-photo">
 			<img itemprop="image" src="{{ entry.data.photo }}" width="80" height="80" alt="{{ entry.data.name }}">
@@ -7,7 +7,6 @@
 			<div class="post-link">
 				<h2>{{ entry.data.title }}</h2>
 				<p class="about">
-					<span itemprop="about">{{ entry.data.name }}</span>
 					<time datetime="{{ entry.date }}" itemprop="datePublished">
 						{{ entry.date | readableDate }}
 					</time>

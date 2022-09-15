@@ -117,12 +117,6 @@
 		position: relative;
 		z-index: 1;
 
-		time {
-			margin-left: 1rem;
-			padding-left: 1rem;
-			border-left: thin solid currentColor;
-		}
-
 		.meta {
 			margin-left: 1rem;
 			padding-left: 1rem;
@@ -148,5 +142,13 @@
 				z-index: -1;
 			}
 		}
+	}
+}
+
+.interviewListing .interview {
+	time {
+		margin-left: 1rem;
+		padding-left: 1rem;
+		border-left: thin solid currentColor;
 	}
 }
