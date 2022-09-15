@@ -22,7 +22,7 @@ If you were to believe Twitter, you would think every developer is changing thei
 
 Talking to real developers, each post highlights no-one is the same, there is no one "golden bullet" to get a job and that nearly everyone has technical debt in their toolkit. No matter how you view the tech industry, these posts highlight the many pitfalls and blessings within the web industry.
 
-Interested in being interviewed? Read about the [interview process](/interviews/process/). Alternatively, [sign up](/signup) to the newsletter to be kept up-to-date when a new interview goes live.
+Interested in being interviewed? Read about the [interview process](/interviews/process/). Alternatively, [sign up](/signup/) to the newsletter to be kept up-to-date when a new interview goes live.
 
 ---
 
