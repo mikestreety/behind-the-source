@@ -64,3 +64,23 @@ a {
 		color: var(--base);
 	}
 }
+
+.imageLink {
+	box-shadow: none;
+	display: inline-block;
+	transition: outline 0.2s ease;
+	border-radius: 0.6rem;
+	&:hover {
+		box-shadow: none;
+		outline: 0.125rem solid var(--primary);
+
+		img {
+			filter: grayscale(1);
+		}
+	}
+
+	img {
+		display: block;
+		transition: filter 0.2s ease;
+	}
+}

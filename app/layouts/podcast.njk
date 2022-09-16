@@ -18,13 +18,15 @@ eleventyComputed:
 
 	<div class="intro" itemprop="abstract">
 		{{ intro | safe }}
-
-		<p class="cta">Listen to <strong>{{ episode }}</strong> on:
-			{%- if applePodcastsLink %}<a href="{{ applePodcastsLink }}">Apple Podcasts</a>{%- endif %}
-			{%- if spotifyLink %}<a href="{{ spotifyLink }}">Spotify</a>{%- endif %}
-			{%- if googlePodcastsLink %}<a href="{{ googlePodcastsLink }}">Google Podcasts</a>{%- endif %}
-			{%- if acastLink %}<a href="{{ acastLink }}">Acast</a>{%- endif %}
-		</p>
+	</div>
+	<div class="podcastLinks">
+		<p>Listen to <strong>{{ episode }}</strong> on:</p>
+		<div>
+			{%- if applePodcastsLink %}<a href="{{ applePodcastsLink }}" class="imageLink"><img itemprop="image" src="/assets/img/podcasts/cta/applepodcasts-badge.svg" width="167" height="44" alt="Listen to {{ episode }} on Apple Podcasts"></a>{%- endif %}
+			{%- if spotifyLink %}<a href="{{ spotifyLink }}" class="imageLink"><img itemprop="image" src="/assets/img/podcasts/cta/spotify-badge.svg" width="167" height="44" alt="Listen to {{ episode }} on Spotify"></a>{%- endif %}
+			{%- if googlePodcastsLink %}<a href="{{ googlePodcastsLink }}" class="imageLink"><img itemprop="image" src="/assets/img/podcasts/cta/amazonmusic-badge.svg" width="167" height="44" alt="Listen to {{ episode }} on Google Podcasts"></a>{%- endif %}
+			{%- if amazonLink %}<a href="{{ amazonLink }}" class="imageLink"><img itemprop="image" src="/assets/img/podcasts/cta/amazonmusic-badge.svg" width="167" height="44" alt="Listen to {{ episode }} on Amazon Music"></a>{%- endif %}
+		</div>
 	</div>
 
 	{%- if acastEpisode %}

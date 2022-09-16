@@ -80,15 +80,6 @@
 		padding: calc(var(--gutter) / 2) 0;
 		border-bottom: thin solid var(--primary);
 		margin-bottom: var(--gutter);
-
-		.cta {
-			margin-top: 1rem;
-
-			a {
-				display: inline-block;
-				margin-left: 0.5rem;
-			}
-		}
 	}
 
 	.interviewQuestion {
