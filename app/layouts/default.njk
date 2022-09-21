@@ -36,7 +36,13 @@ seoDescription: A series of interviews with the people behind the websites. Thes
 	<meta property="twitter:site" content="@mikestreety">
 	<meta property="twitter:creator" content="@mikestreety">
 
+	{% if date is defined  %}
+	<meta property="og:type" content="article">
+	<meta property="article:published_time" content="{{ date | isoDate }}">
+	{% else %}
 	<meta property="og:type" content="website">
+	{% endif %}
+
 	<meta property="og:title" content="{{ seoPageTitle }} - {{ seoTitle }}">
 	<meta property="twitter:title" content="{{ seoPageTitle }} - {{ seoTitle }}">
 	<meta property="og:url" content="{{ siteUrl }}{{ page.url }}">
@@ -53,6 +59,7 @@ seoDescription: A series of interviews with the people behind the websites. Thes
 	{% endif %}
 	<meta property="og:description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}">
 	<meta property="twitter:description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}">
+
 
 	<link rel="stylesheet" href="/assets/css/style.css">
 
