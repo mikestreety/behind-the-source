@@ -4,6 +4,8 @@ module.exports = function (config) {
 	config.addFilter('readableDate', require('./app/filters/readableDate.js'));
 	config.addFilter("limit", (arr, limit) => arr.slice(0, limit));
 
+	config.addPassthroughCopy('./app/content/admin');
+
 	config.addCollection('podcasts', (collection) => {
 		let now = new Date();
 		return collection
