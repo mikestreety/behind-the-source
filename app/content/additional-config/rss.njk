@@ -1,7 +1,7 @@
 ---
 permalink: rss.xml
 siteName: Behind the Source
-siteUrl: https://www.behindthesource.co.uk
+siteUrl: https://www.behindthesource.mikestreety.co.uk
 description: A series of interviews with the people behind the websites. These stories show there isn&#039;t only one way into the web
 sitemapIgnore: true
 ---
@@ -26,22 +26,22 @@ sitemapIgnore: true
 		{% for entry in collections.podcasts %}
 		<item>
 			<title>{{ entry.data.episode }} - {{ entry.data.title }}</title>
-			<link>https://www.behindthesource.co.uk{{ entry.url }}</link>
+			<link>https://www.behindthesource.mikestreety.co.uk{{ entry.url }}</link>
 			<pubDate>{{ entry.data.date }}</pubDate>
-			<guid>https://www.behindthesource.co.uk{{ entry.url }}</guid>
+			<guid>https://www.behindthesource.mikestreety.co.uk{{ entry.url }}</guid>
 			<description><![CDATA[
-				<h1>{{ entry.data.title }}</h1><h2>{{ entry.data.episode }} ~ {{ entry.data.name }}</h2>{{ entry.data.intro }}<p><a href="https://www.behindthesource.co.uk{{ entry.url }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
+				<h1>{{ entry.data.title }}</h1><h2>{{ entry.data.episode }} ~ {{ entry.data.name }}</h2>{{ entry.data.intro }}<p><a href="https://www.behindthesource.mikestreety.co.uk{{ entry.url }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
 			]]></description>
 		</item>
 		{% endfor %}
         {% for entry in collections.interviews %}
 		<item>
 			<title>{{ entry.data.title }} - {{ entry.data.heading }}</title>
-			<link>https://www.behindthesource.co.uk{{ entry.url }}</link>
+			<link>https://www.behindthesource.mikestreety.co.uk{{ entry.url }}</link>
 			<pubDate>{{ entry.data.date }}</pubDate>
-			<guid>https://www.behindthesource.co.uk{{ entry.url }}</guid>
+			<guid>https://www.behindthesource.mikestreety.co.uk{{ entry.url }}</guid>
 			<description><![CDATA[
-				<h1>{{ entry.data.heading }}</h1><h2>{{ entry.data.title }} ~ {{ entry.data.name }}</h2>{{ entry.data.intro }}<p><a href="https://www.behindthesource.co.uk/interviews/{{ entry.data.slug }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
+				<h1>{{ entry.data.heading }}</h1><h2>{{ entry.data.title }} ~ {{ entry.data.name }}</h2>{{ entry.data.intro }}<p><a href="https://www.behindthesource.mikestreety.co.uk/interviews/{{ entry.data.slug }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
 			]]></description>
 		</item>
 		{% endfor %}
