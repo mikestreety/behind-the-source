@@ -3,7 +3,7 @@ layout: default.njk
 eleventyComputed:
   title: "{{ title }}: {{ name }}"
   seoPageTitle: "{{ title }}: {{ name }}"
-  seoPageDescription: "{{ heading | cleanAndTrim(15) }} - {{ name }} is interviewed for Behind the Source"
+  seoPageDescription: "{{ heading | cleanAndTrim: 15 }} - {{ name }} is interviewed for Behind the Source"
   socialMediaPhoto: "{{ ogImage }}"
 ---
 <div itemscope itemtype="http://schema.org/PublicationIssue" class="interviewSingle">
