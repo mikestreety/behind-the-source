@@ -1,6 +1,6 @@
 ---
 seoTitle: Behind the Source
-siteUrl: https://www.behindthesource.mikestreety.co.uk
+siteUrl: https://behindthesource.mikestreety.co.uk
 strapline: Interviews with the people that make the web
 seoDescription: A series of interviews with the people behind the websites. These stories show there isn&#039;t only one way into the web
 ---
@@ -17,7 +17,7 @@ seoDescription: A series of interviews with the people behind the websites. Thes
 	<meta name="generator" content="{{ eleventy.generator }}">
 
 	<link type="application/rss+xml" rel="alternate" title="Behind the Source Podcast" href="https://feeds.acast.com/public/shows/62d9b3f5f39c44001194bc1e"/>
-	<link type="application/rss+xml" rel="alternate" title="Behind the Source Posts" href="https://www.behindthesource.mikestreety.co.uk/rss.xml"/>
+	<link type="application/rss+xml" rel="alternate" title="Behind the Source Posts" href="https://behindthesource.mikestreety.co.uk/rss.xml"/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon_180.png">
 	<link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicon_512.png">
@@ -33,8 +33,8 @@ seoDescription: A series of interviews with the people behind the websites. Thes
 	<meta property="twitter:site" content="@behindsource">
 	<meta property="twitter:creator" content="@mikestreety">
 
-	<link rel="webmention" href="https://webmention.io/www.behindthesource.mikestreety.co.uk/webmention" />
-	<link rel="pingback" href="https://webmention.io/www.behindthesource.mikestreety.co.uk/xmlrpc" />
+	<link rel="webmention" href="https://webmention.io/behindthesource.mikestreety.co.uk/webmention" />
+	<link rel="pingback" href="https://webmention.io/behindthesource.mikestreety.co.uk/xmlrpc" />
 
 	{% if date is defined  %}
 	<meta property="og:type" content="article">
@@ -49,22 +49,22 @@ seoDescription: A series of interviews with the people behind the websites. Thes
 	<meta property="og:site_name" content="{{ seoTitle }}">
 	<meta property="og:title" content="{{ seoPageTitle }}">
 	{% if socialMediaPhoto is defined  %}
-	<meta property="twitter:image" name="image" content="https://www.behindthesource.mikestreety.co.uk{{ socialMediaPhoto  }}">
-	<meta property="og:image" name="image" content="https://www.behindthesource.mikestreety.co.uk{{ socialMediaPhoto  }}">
+	<meta property="twitter:image" name="image" content="https://behindthesource.mikestreety.co.uk{{ socialMediaPhoto  }}">
+	<meta property="og:image" name="image" content="https://behindthesource.mikestreety.co.uk{{ socialMediaPhoto  }}">
 	<meta property="og:image:width" content="1300">
 	<meta property="og:image:height" content="650">
 	{% else %}
-	<meta property="og:image" name="image" content="https://www.behindthesource.mikestreety.co.uk/assets/img/social-media/bts-social.png">
-	<meta property="twitter:image" name="image" content="https://www.behindthesource.mikestreety.co.uk/assets/img/social-media/bts-social.png">
+	<meta property="og:image" name="image" content="https://behindthesource.mikestreety.co.uk/assets/img/social-media/bts-social.png">
+	<meta property="twitter:image" name="image" content="https://behindthesource.mikestreety.co.uk/assets/img/social-media/bts-social.png">
 	{% endif %}
 	<meta property="og:description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}">
 	<meta property="twitter:description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}">
 
 	<link rel="stylesheet" href="/assets/css/style.css">
 
-	<meta name="monetization" content="$ilp.uphold.com/R6wFMN3kXQbL">
 
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<script data-goatcounter="https://behindthesource.goatcounter.com/count"
+	        async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <body {% if bodyclass is defined %}class="{{ bodyclass }}"{% endif %}>
@@ -107,7 +107,7 @@ seoDescription: A series of interviews with the people behind the websites. Thes
 			</p>
 			<div class="container">
 				<p><a href="/rss.xml">Website RSS</a> | <a href="/signup/">Sign up to the newsletter</a></p>
-				<p>Copyright <a href="https://www.mikestreety.co.uk/">Mike Street</a>. <a href="https://behindthesource.goatcounter.com/">View analytics</a></p>
+				<p>Copyright <a href="https://www.mikestreety.co.uk/">Mike Street</a>.</p>
 			</div>
 		</footer>
 
@@ -125,17 +125,5 @@ seoDescription: A series of interviews with the people behind the websites. Thes
 		</div>
 	</div>
 	<script src="/assets/js/app.js"></script>
-	<script data-goatcounter="https://behindthesource.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-	<script>
-	if (window.netlifyIdentity) {
-		window.netlifyIdentity.on("init", user => {
-			if (!user) {
-				window.netlifyIdentity.on("login", () => {
-					document.location.href = "/admin/";
-				});
-			}
-		});
-	}
-	</script>
 </body>
 </html>
