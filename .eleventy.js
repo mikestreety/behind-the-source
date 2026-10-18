@@ -3,6 +3,7 @@ module.exports = function (config) {
 	config.addFilter('isoDate', require('./app/filters/isoDate.js'));
 	config.addFilter('readableDate', require('./app/filters/readableDate.js'));
 	config.addFilter("limit", (arr, limit) => arr.slice(0, limit));
+	config.addFilter('socialUrls', require('./app/filters/socialUrls.js'));
 
 	config.addPassthroughCopy({ 'app/assets': 'assets' });
 

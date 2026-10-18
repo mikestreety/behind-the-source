@@ -1,7 +1,7 @@
 ---
 layout: page.njk
-seoPageTitle: Sign up to receive updates on Behind the Source
-seoPageDescription: Behind the source emails are sent whenever a new interview goes live, along with project updates &amp; news
+seoPageTitle: Newsletter sign up
+seoPageDescription: Sign up to the Behind the Source newsletter to get new podcast episodes and interviews straight to your inbox, along with project news & updates.
 title: Receive the latest posts & updates
 ---
 

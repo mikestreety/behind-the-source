@@ -2,7 +2,7 @@
 permalink: rss.xml
 siteName: Behind the Source
 siteUrl: https://behindthesource.mikestreety.co.uk
-description: A series of interviews with the people behind the websites. These stories show there isn&#039;t only one way into the web
+description: A podcast and series of interviews with the people behind the web, exploring the tools, projects and processes that make it - and the many ways into it.
 sitemapIgnore: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -11,26 +11,26 @@ sitemapIgnore: true
 		<title>{{ siteName }}</title>
 		<link>{{ siteUrl }}</link>
 		<description>{{ description }}</description>
-		<language>en-us</language>
+		<language>en-gb</language>
 		<pubDate>{{ page.date.toUTCString() }}</pubDate>
 		<lastBuildDate>{{ page.date.toUTCString() }}</lastBuildDate>
-		<atom:link href="{{ siteUrl }}/{{ permalink }}" rel="alternate" type="application/xml" />
+		<atom:link href="{{ siteUrl }}/{{ permalink }}" rel="self" type="application/rss+xml" />
 		<image>
-			<url>{{ siteUrl }}assets/img/android-chrome-512x512.png</url>
+			<url>{{ siteUrl }}/assets/img/favicon_192.png</url>
 			<title>{{ siteName }}</title>
 			<link>{{ siteUrl }}</link>
-			<width>144</width>
-			<height>144</height>
+			<width>192</width>
+			<height>192</height>
 			<description>{{ description }}</description>
 		</image>
 		{% for entry in collections.podcasts %}
 		<item>
 			<title>{{ entry.data.episode }} - {{ entry.data.title }}</title>
 			<link>https://behindthesource.mikestreety.co.uk{{ entry.url }}</link>
-			<pubDate>{{ entry.data.date }}</pubDate>
+			<pubDate>{{ entry.date.toUTCString() }}</pubDate>
 			<guid>https://behindthesource.mikestreety.co.uk{{ entry.url }}</guid>
 			<description><![CDATA[
-				<h1>{{ entry.data.title }}</h1><h2>{{ entry.data.episode }} ~ {{ entry.data.name }}</h2>{{ entry.data.intro }}<p><a href="https://behindthesource.mikestreety.co.uk{{ entry.url }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
+				<h1>{{ entry.data.title }}</h1><h2>{{ entry.data.episode }}</h2>{{ entry.data.intro }}<p><a href="https://behindthesource.mikestreety.co.uk{{ entry.url }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Listen to the episode</a></p>
 			]]></description>
 		</item>
 		{% endfor %}
@@ -38,10 +38,10 @@ sitemapIgnore: true
 		<item>
 			<title>{{ entry.data.title }} - {{ entry.data.heading }}</title>
 			<link>https://behindthesource.mikestreety.co.uk{{ entry.url }}</link>
-			<pubDate>{{ entry.data.date }}</pubDate>
+			<pubDate>{{ entry.date.toUTCString() }}</pubDate>
 			<guid>https://behindthesource.mikestreety.co.uk{{ entry.url }}</guid>
 			<description><![CDATA[
-				<h1>{{ entry.data.heading }}</h1><h2>{{ entry.data.title }} ~ {{ entry.data.name }}</h2>{{ entry.data.intro }}<p><a href="https://behindthesource.mikestreety.co.uk/interviews/{{ entry.data.slug }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
+				<h1>{{ entry.data.heading }}</h1><h2>{{ entry.data.title }} ~ {{ entry.data.name }}</h2>{{ entry.data.intro }}<p><a href="https://behindthesource.mikestreety.co.uk{{ entry.url }}" style="display: inline-block; padding: 8px 16px; background: #6AF0B0; color: #2a2a2a;">Read the full interview</a></p>
 			]]></description>
 		</item>
 		{% endfor %}

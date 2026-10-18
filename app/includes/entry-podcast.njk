@@ -1,16 +1,16 @@
-<li itemprop="hasPart" class="podcast" itemscope itemtype="http://schema.org/PublicationIssue">
+<li class="podcast">
 	<a href="{{ entry.url }}">
 		<div class="post-link-photo">
-			<img data-episode="{{ entry.data.episode }}" itemprop="image" src="{{ entry.data.photo }}" width="80" height="80" alt="{{ entry.data.title }}">
+			<img data-episode="{{ entry.data.episode }}" src="{{ entry.data.photo }}" width="80" height="80" alt="{{ entry.data.title }}">
 		</div>
 		<div class="post-link-wrap">
 			<div class="post-link">
 				<h2>{{ entry.data.title }}</h2>
 				<p class="about">
-					<time datetime="{{ entry.date }}" itemprop="datePublished">
+					<time datetime="{{ entry.date | isoDate }}">
 						{{ entry.date | readableDate }}
 					</time>
-					<span class="meta" itemprop="issueNumber">#{{ entry.data.episode }}</span>
+					<span class="meta">#{{ entry.data.episode }}</span>
 				</p>
 			</div>
 			{{ entry.data.intro | cleanAndTrim }}

@@ -2,18 +2,18 @@
 permalink: /interviews/
 layout: 'default.njk'
 seoPageTitle: Interviews with people who make the web
-seoPageDescription: Behind the Source is a blog by Mike Street. It highlights the different routes and entry points into the web and the technology used to get there.
+seoPageDescription: Interviews with web developers and designers about how they got into the industry, what their job involves and their thoughts on the web.
 ---
 
 <h1>Interviews</h1>
 
 <div class="intro">
 	<p class="featured">Behind the Source Interviews are with the people behind the websites. From all walks of life, these stories show there isn't only one way into the world of the web.</p>
-	<p><a href="/signup/">Sign up to receive email updates </a>or <a href="/rss">subscribe to the RSS feed</a>.</p>
+	<p><a href="/signup/">Sign up to receive email updates </a>or <a href="/rss.xml">subscribe to the RSS feed</a>.</p>
 </div>
 
-<div itemprop="hasPart" itemscope itemtype="http://schema.org/PublicationVolume" >
-	<h2 itemprop="volumeNumber">Series One</h2>
+<div>
+	<h2>Series One</h2>
 	<ol class="interviewListing">
 	{% for entry in collections.interviews %}
 		{% include 'entry-interview.njk' %}

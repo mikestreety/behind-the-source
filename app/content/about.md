@@ -1,7 +1,7 @@
 ---
 layout: page.njk
-seoPageTitle: About Behind the Source and who made it
-seoPageDescription: What is Behind the Source? It explores the web industry and those that build it. Sharing the varying ways people get into the web and their view on the industry
+seoPageTitle: About Behind the Source
+seoPageDescription: What is Behind the Source? A podcast and interview series by Mike Street exploring the web industry, the tech behind it and the people who build it.
 title: About
 
 ---

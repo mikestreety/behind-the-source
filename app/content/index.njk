@@ -1,21 +1,21 @@
 ---
 permalink: /
 layout: 'default.njk'
-seoPageTitle: Exploring the tech and people that make the web
-seoPageDescription: Behind the Source is a podcast and blog by Mike Street. It highlights the different projects, tools and people within the web industry.
+fullTitle: Behind the Source - podcast on the tech and people behind the web
+seoPageTitle: A podcast about the tech and people behind the web
+seoPageDescription: Behind the Source is a podcast and interview series by Mike Street exploring the tools, projects, processes and people that make the web.
 ---
 
 <h1>Behind the Source</h1>
 
 <div class="intro">
 	<p class="featured">Everyone is a junior in something</p>
-	<p>Behind the Source is about exploring the people and tech who make the web. The <a href="/podcasts">podcast</a> explores tools, project and processes while the <a href="/interviews">interviews</a> were about finding out about the people who build the web.<p>
+	<p>Behind the Source is about exploring the people and tech who make the web. The <a href="/podcasts/">podcast</a> explores tools, project and processes while the <a href="/interviews/">interviews</a> were about finding out about the people who build the web.</p>
 </div>
 
 <h2>Podcasts</h2>
 
-<div itemprop="hasPart" itemscope itemtype="http://schema.org/PublicationVolume" >
-	<h2 itemprop="volumeNumber" class="isHidden">Series Two</h2>
+<div>
 	<ol class="interviewListing">
 	{% for entry in collections.podcasts | limit(3) %}
 		{% include 'entry-podcast.njk' %}

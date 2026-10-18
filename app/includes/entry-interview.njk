@@ -1,18 +1,18 @@
-<li itemprop="hasPart" itemscope class="interview" itemtype="http://schema.org/PublicationIssue">
+<li class="interview">
 	<a href="{{ entry.url }}">
 		<div class="post-link-photo">
-			<img itemprop="image" src="{{ entry.data.photo }}" width="80" height="80" alt="{{ entry.data.name }}">
+			<img src="{{ entry.data.photo }}" width="80" height="80" alt="{{ entry.data.name }}">
 		</div>
 		<div class="post-link-wrap">
 			<div class="post-link">
 				<h2>{{ entry.data.heading }}</h2>
 
 				<p class="about">
-					<span itemprop="about">{{ entry.data.name }}</span>
-					<time datetime="{{ entry.data.date }}" itemprop="datePublished">
+					<span>{{ entry.data.name }}</span>
+					<time datetime="{{ entry.date | isoDate }}">
 						{{ entry.data.date | readableDate }}
 					</time>
-					<span class="meta" itemprop="issueNumber">#{{ entry.data.title }}</span>
+					<span class="meta">#{{ entry.data.title }}</span>
 				</p>
 			</div>
 			{{ entry.data.intro | cleanAndTrim }}

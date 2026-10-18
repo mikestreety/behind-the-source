@@ -2,44 +2,42 @@
 layout: default.njk
 eleventyComputed:
   title: "{{ title }}: {{ name }}"
-  seoPageTitle: "{{ title }}: {{ name }}"
-  seoPageDescription: "{{ heading | cleanAndTrim: 15 }} - {{ name }} is interviewed for Behind the Source"
+  seoPageTitle: "{% if seoTitleOverride %}{{ seoTitleOverride }}{% else %}Interview with {{ name }} ({{ page.fileSlug | upcase }}){% endif %}"
+  seoPageDescription: "{{ description }}"
   socialMediaPhoto: "{{ ogImage }}"
 ---
-<div itemscope itemtype="http://schema.org/PublicationIssue" class="interviewSingle">
+<div class="interviewSingle">
 
 	<p class="meta">
-		<span itemprop="issueNumber">#{{ title }}</span>
-		<time datetime="{{ date }}" itemprop="datePublished">
+		<span>#{{ title }}</span>
+		<time datetime="{{ date | isoDate }}">
 			{{ date | readableDate }}
 		</time>
 	</p>
 
-	<h1 itemprop="headline">{{ heading }}</h1>
+	<h1>{{ heading }}</h1>
 
 	{% include 'person-card.njk' %}
 
 
-	<div class="intro" itemprop="abstract">{{ intro | safe }}</div>
+	<div class="intro">{{ intro | safe }}</div>
 
 	<div>
 		{%- for item in body %}
 			{%- if item.type == 'question' %}
-			<dl class="interviewQuestion" itemprop="mainEntity" itemscope itemtype="http://schema.org/Thing">
-				<dt itemprop="name">{{ item.fields.question | safe }}</dt>
-				<dd itemprop="description">
+			<dl class="interviewQuestion">
+				<dt>{{ item.fields.question | safe }}</dt>
+				<dd>
 					{{ item.fields.answer | safe }}
 				</dd>
 			</dl>
 			{%- endif %}
 			{%- if item.type == 'pullquote' %}
-			<div itemscope itemtype="http://schema.org/Quotation">
-				<blockquote itemprop="mainEntity" itemscope itemtype="http://schema.org/Thing">
-					<p itemprop="description">{{ item.fields.quote }}</p>
+			<div>
+				<blockquote>
+					<p>{{ item.fields.quote }}</p>
 				</blockquote>
-				<cite class="isHidden" itemprop="spokenByCharacter" itemscope itemtype="http://schema.org/Person">
-					<meta itemprop="name" content="{{ name }}">
-				</cite>
+				<cite class="isHidden">{{ name }}</cite>
 			</div>
 			{%- endif %}
 			{%- if item.type == 'rte' %}
