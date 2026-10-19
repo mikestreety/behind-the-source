@@ -1,0 +1,100 @@
+{%- set pageUrl = siteUrl + page.url %}
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "WebSite",
+			"@id": "{{ siteUrl }}/#website",
+			"name": "{{ seoTitle }}",
+			"url": "{{ siteUrl }}/",
+			"description": {{ seoDescription | dump | safe }},
+			"inLanguage": "en-GB",
+			"publisher": { "@id": "{{ siteUrl }}/#mike" }
+		},
+		{
+			"@type": "PodcastSeries",
+			"@id": "{{ siteUrl }}/#podcast",
+			"name": "{{ seoTitle }}",
+			"url": "{{ siteUrl }}/podcasts/",
+			"description": "A podcast introducing web tools, projects and processes for people who aren't familiar with them, with an expert guest each episode.",
+			"image": "{{ siteUrl }}/assets/img/social-media/bts-social.png",
+			"webFeed": "https://feeds.acast.com/public/shows/62d9b3f5f39c44001194bc1e",
+			"author": { "@id": "{{ siteUrl }}/#mike" },
+			"sameAs": [
+				"https://podcasts.apple.com/us/podcast/behind-the-source/id1645278976",
+				"https://open.spotify.com/show/0hrWlNO7rACsXcJZqS1yzH"
+			]
+		},
+		{
+			"@type": "Person",
+			"@id": "{{ siteUrl }}/#mike",
+			"name": "Mike Street",
+			"url": "https://www.mikestreety.co.uk/",
+			"sameAs": [
+				"https://hachyderm.io/@mikestreety",
+				"https://bsky.app/profile/mikestreety.co.uk",
+				"https://github.com/mikestreety"
+			]
+		}
+		{%- if episode %},
+		{
+			"@type": "PodcastEpisode",
+			"@id": "{{ pageUrl }}#episode",
+			"url": "{{ pageUrl }}",
+			"name": {{ title | dump | safe }},
+			"episodeNumber": "{{ episode }}",
+			"description": {{ metaDescription | dump | safe }},
+			"datePublished": "{{ date | isoDate }}",
+			"image": "{{ metaImage }}",
+			"inLanguage": "en-GB",
+			"partOfSeries": { "@id": "{{ siteUrl }}/#podcast" },
+			"author": { "@id": "{{ siteUrl }}/#mike" },
+			{%- if acastEpisode %}
+			"associatedMedia": {
+				"@type": "MediaObject",
+				"embedUrl": "https://embed.acast.com/62d9b3f5f39c44001194bc1e/{{ acastEpisode }}"
+			},
+			{%- endif %}
+			{%- set guestSep = joiner() %}
+			"contributor": [
+				{%- for person in people %}{% if person.name != 'Mike Street' %}{{ guestSep() }}
+				{
+					"@type": "Person",
+					"name": {{ person.name | dump | safe }}
+					{%- set links = person.social | socialUrls %}
+					{%- if links.length %},
+					"sameAs": {{ links | dump | safe }}
+					{%- endif %}
+				}
+				{%- endif %}{% endfor %}
+			]
+		}
+		{%- elif heading %},
+		{
+			"@type": "Article",
+			"@id": "{{ pageUrl }}#article",
+			"url": "{{ pageUrl }}",
+			"mainEntityOfPage": "{{ pageUrl }}",
+			"headline": {{ seoPageTitle | dump | safe }},
+			"alternativeHeadline": {{ heading | dump | safe }},
+			"description": {{ metaDescription | dump | safe }},
+			"datePublished": "{{ date | isoDate }}",
+			"image": "{{ metaImage }}",
+			"inLanguage": "en-GB",
+			"isPartOf": { "@id": "{{ siteUrl }}/#website" },
+			"author": { "@id": "{{ siteUrl }}/#mike" },
+			"publisher": { "@id": "{{ siteUrl }}/#mike" },
+			"about": {
+				"@type": "Person",
+				"name": {{ name | dump | safe }}
+				{%- set links = social | socialUrls %}
+				{%- if links.length %},
+				"sameAs": {{ links | dump | safe }}
+				{%- endif %}
+			}
+		}
+		{%- endif %}
+	]
+}
+</script>

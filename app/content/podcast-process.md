@@ -1,8 +1,8 @@
 ---
 layout: page.njk
 title: The Podcast Process
-seoPageTitle: The process of featuring on the podcast
-seoPageDescription: What are the steps for recording a podcast? What is needed and what is provided
+seoPageTitle: How recording the podcast works
+seoPageDescription: Guesting on Behind the Source? How the podcast works, from planning questions in a Google Doc to recording in Zencastr - and what you need to take part.
 permalink: /podcasts/process/
 ---
 

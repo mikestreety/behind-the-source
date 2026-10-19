@@ -2,22 +2,27 @@
 seoTitle: Behind the Source
 siteUrl: https://behindthesource.mikestreety.co.uk
 strapline: Interviews with the people that make the web
-seoDescription: A series of interviews with the people behind the websites. These stories show there isn&#039;t only one way into the web
+seoDescription: A podcast and series of interviews with the people behind the web, exploring the tools, projects and processes that make it - and the many ways into it.
 ---
+{%- set metaTitle = fullTitle if fullTitle else (seoPageTitle + ' - ' + seoTitle if seoPageTitle else seoTitle) %}
+{%- set metaDescription = seoPageDescription if seoPageDescription is defined else seoDescription %}
+{%- set metaImage = siteUrl + (socialMediaPhoto if socialMediaPhoto else '/assets/img/social-media/bts-social.png') %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
 	<meta charset="utf-8" />
-	<title>{{ seoPageTitle }} - {{ seoTitle }}</title>
-	<link rel="home" href="{{ siteUrl }}" />
+	<title>{{ metaTitle }}</title>
+	<link rel="home" href="{{ siteUrl }}/" />
+	<link rel="canonical" href="{{ siteUrl }}{{ page.url }}" />
 
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-	<meta name="theme-color" content="#6AF0B0">
-	<link rel="manifest" href="/site.webmanifest">
 	<meta name="generator" content="{{ eleventy.generator }}">
+	{%- if sitemapIgnore %}
+	<meta name="robots" content="noindex">
+	{%- endif %}
 
 	<link type="application/rss+xml" rel="alternate" title="Behind the Source Podcast" href="https://feeds.acast.com/public/shows/62d9b3f5f39c44001194bc1e"/>
-	<link type="application/rss+xml" rel="alternate" title="Behind the Source Posts" href="https://behindthesource.mikestreety.co.uk/rss.xml"/>
+	<link type="application/rss+xml" rel="alternate" title="Behind the Source Posts" href="{{ siteUrl }}/rss.xml"/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon_180.png">
 	<link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicon_512.png">
@@ -26,104 +31,82 @@ seoDescription: A series of interviews with the people behind the websites. Thes
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#6AF0B0">
 
-	<meta name="description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}"/>
+	<meta name="description" content="{{ metaDescription }}"/>
 	<meta name="author" content="Mike Street">
-
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:site" content="@behindsource">
-	<meta property="twitter:creator" content="@mikestreety">
 
 	<link rel="webmention" href="https://webmention.io/behindthesource.mikestreety.co.uk/webmention" />
 	<link rel="pingback" href="https://webmention.io/behindthesource.mikestreety.co.uk/xmlrpc" />
 
-	{% if date is defined  %}
+	{%- if date is defined %}
 	<meta property="og:type" content="article">
 	<meta property="article:published_time" content="{{ date | isoDate }}">
-	{% else %}
+	{%- else %}
 	<meta property="og:type" content="website">
-	{% endif %}
-
-	<meta property="og:title" content="{{ seoPageTitle }} - {{ seoTitle }}">
-	<meta property="twitter:title" content="{{ seoPageTitle }} - {{ seoTitle }}">
+	{%- endif %}
+	<meta property="og:title" content="{{ metaTitle }}">
+	<meta property="og:description" content="{{ metaDescription }}">
 	<meta property="og:url" content="{{ siteUrl }}{{ page.url }}">
 	<meta property="og:site_name" content="{{ seoTitle }}">
-	<meta property="og:title" content="{{ seoPageTitle }}">
-	{% if socialMediaPhoto is defined  %}
-	<meta property="twitter:image" name="image" content="https://behindthesource.mikestreety.co.uk{{ socialMediaPhoto  }}">
-	<meta property="og:image" name="image" content="https://behindthesource.mikestreety.co.uk{{ socialMediaPhoto  }}">
+	<meta property="og:locale" content="en_GB">
+	<meta property="og:image" content="{{ metaImage }}">
 	<meta property="og:image:width" content="1300">
 	<meta property="og:image:height" content="650">
-	{% else %}
-	<meta property="og:image" name="image" content="https://behindthesource.mikestreety.co.uk/assets/img/social-media/bts-social.png">
-	<meta property="twitter:image" name="image" content="https://behindthesource.mikestreety.co.uk/assets/img/social-media/bts-social.png">
-	{% endif %}
-	<meta property="og:description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}">
-	<meta property="twitter:description" content="{% if seoPageDescription is defined %}{{ seoPageDescription }}{% else %}{{ seoDescription }}{% endif %}">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="{{ metaTitle }}">
+	<meta name="twitter:description" content="{{ metaDescription }}">
+	<meta name="twitter:image" content="{{ metaImage }}">
 
 	<link rel="stylesheet" href="/assets/css/style.css">
 
-
 	<script data-goatcounter="https://behindthesource.goatcounter.com/count"
 	        async src="//gc.zgo.at/count.js"></script>
+
+	{% include 'schema.njk' %}
 </head>
 
 <body {% if bodyclass is defined %}class="{{ bodyclass }}"{% endif %}>
-	<div  itemscope itemtype="http://schema.org/Periodical">
+	<div class="page">
 
-		<div class="page">
+		<header class="header">
+			<a href="/" class="logo">
+				B<span>ehind the Source</span>
+			</a>
 
-			<header class="header">
-				<a href="/" class="logo" itemprop="name">
-					B<span>ehind the Source</span>
-				</a>
+			<nav class="menu">
+				<ul>
+					<li class="hasChildren">
+						<a href="/">Menu</a>
+						<ul class="subNav">
+							<li><a href="/podcasts/" {% if '/podcasts/' == page.url %}class="active"{% endif %}>Podcasts</a></li>
+							<li><a href="/interviews/" {% if '/interviews/' == page.url %}class="active"{% endif %}>Interviews</a></li>
+							<li><a href="/about/" {% if '/about/' == page.url %}class="active"{% endif %}>About</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-				<nav class="menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
-					<meta itemprop="name" content="Navigation Menu">
-					<ul>
-						<li class="hasChildren">
-							<a itemprop="url" href="/">Menu</a>
-							<ul itemscope itemtype="http://schema.org/SiteNavigationElement" class="subNav">
-								<li><a itemprop="url" href="/podcasts/" {% if '/podcasts/' == page.url %}class="active"{% endif %}>Podcasts</a></li>
-								<li><a itemprop="url" href="/interviews/" {% if '/interviews/' == page.url %}class="active"{% endif %}>Interviews</a></li>
-								<li><a itemprop="url" href="/about/" {% if '/about/' == page.url %}class="active"{% endif %}>About</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</header>
-
-			<main class="content">
-				{{ content | safe }}
-			</main>
-		</div>
-
-		<footer class="footer">
-			<p><a href="/podcasts/subscriptions/">Subscribe to the podcast</a>:</p>
-			<p>
-				<a href="https://podcasts.apple.com/us/podcast/behind-the-source/id1645278976?itsct=podcast_box&amp;itscg=30200&amp;ls=1"  class="imageLink"><img itemprop="image" src="/assets/img/podcasts/cta/applepodcasts-icon@2x.png" width="32" height="32" alt="Listen on Apple"></a>
-				<a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzLzYyZDliM2Y1ZjM5YzQ0MDAxMTk0YmMxZQ" class="imageLink"><img itemprop="image" src="/assets/img/podcasts/cta/googlepodcasts-icon@2x.png" width="32" height="32" alt="Listen on Google Podcasts"></a>
-				<a href="https://open.spotify.com/show/0hrWlNO7rACsXcJZqS1yzH?si=48b576549e25423f" class="imageLink"><img itemprop="image" src="/assets/img/podcasts/cta/spotify-icon@2x.png" width="32" height="32" alt="Listen on Spotify"></a>
-				<a href="https://feeds.acast.com/public/shows/62d9b3f5f39c44001194bc1e"  class="imageLink"><img itemprop="image" src="/assets/img/podcasts/cta/rss-icon@2x.png" width="32" height="32" alt="Subscribe to RSS"></a>
-			</p>
-			<div class="container">
-				<p><a href="/rss.xml">Website RSS</a> | <a href="/signup/">Sign up to the newsletter</a></p>
-				<p>Copyright <a href="https://www.mikestreety.co.uk/">Mike Street</a>.</p>
-			</div>
-		</footer>
-
-		<div class="isHidden">
-			<meta itemprop="about" content="{{ strapline }}">
-			<meta itemprop="abstract" content="{{ description }}">
-			<meta itemprop="accessMode" content="visual">
-			<div itemprop="accountablePerson author copyrightHolder creator maintainer" itemscope itemtype="http://schema.org/Person">
-				<meta itemprop="name" content="Mike Street">
-				<meta itemprop="url" content="http://www.mikestreety.co.uk">
-				<meta itemprop="sameAs" content="https://twitter.com/mikestreety">
-				<meta itemprop="sameAs" content="https://www.instagram.com/mikestreety/">
-				<link rel="me" href="https://hachyderm.io/@mikestreety" />
-			</div>
-		</div>
+		<main class="content">
+			{{ content | safe }}
+		</main>
 	</div>
+
+	<footer class="footer">
+		<p><a href="/podcasts/subscriptions/">Subscribe to the podcast</a>:</p>
+		<p>
+			<a href="https://podcasts.apple.com/us/podcast/behind-the-source/id1645278976?itsct=podcast_box&amp;itscg=30200&amp;ls=1"  class="imageLink"><img src="/assets/img/podcasts/cta/applepodcasts-icon@2x.png" width="32" height="32" alt="Listen on Apple Podcasts"></a>
+			<a href="https://open.spotify.com/show/0hrWlNO7rACsXcJZqS1yzH?si=48b576549e25423f" class="imageLink"><img src="/assets/img/podcasts/cta/spotify-icon@2x.png" width="32" height="32" alt="Listen on Spotify"></a>
+			<a href="https://feeds.acast.com/public/shows/62d9b3f5f39c44001194bc1e"  class="imageLink"><img src="/assets/img/podcasts/cta/rss-icon@2x.png" width="32" height="32" alt="Subscribe to the podcast RSS feed"></a>
+		</p>
+		<div class="container">
+			<p><a href="/rss.xml">Website RSS</a> | <a href="/signup/">Sign up to the newsletter</a></p>
+			<p>Copyright <a href="https://www.mikestreety.co.uk/">Mike Street</a>.</p>
+		</div>
+		<div class="isHidden">
+			<a rel="me" href="https://hachyderm.io/@mikestreety">Mastodon</a>
+		</div>
+	</footer>
 	<script src="/assets/js/app.js"></script>
 </body>
 </html>
