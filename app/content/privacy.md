@@ -19,8 +19,8 @@ If you [sign up to the newsletter](/signup/), your email address is stored by [M
 
 ## Emails
 
-If you email <!--email_off-->[hello@behindthesource.mikestreety.co.uk](mailto:hello@behindthesource.mikestreety.co.uk)<!--/email_off-->, your name, email address and message are kept only for as long as needed to reply or arrange an episode.
+If you email <!--email_off-->[behindthesource@mikestreety.co.uk](mailto:behindthesource@mikestreety.co.uk)<!--/email_off-->, your name, email address and message are kept only for as long as needed to reply or arrange an episode.
 
 ## Your rights
 
-Under UK GDPR you can ask to see, correct or delete any personal data held about you. Email <!--email_off-->[hello@behindthesource.mikestreety.co.uk](mailto:hello@behindthesource.mikestreety.co.uk)<!--/email_off--> and I'll sort it. If you're unhappy with how your data has been handled, you can complain to the [Information Commissioner's Office](https://ico.org.uk/make-a-complaint/).
+Under UK GDPR you can ask to see, correct or delete any personal data held about you. Email <!--email_off-->[behindthesource@mikestreety.co.uk](mailto:behindthesource@mikestreety.co.uk)<!--/email_off--> and I'll sort it. If you're unhappy with how your data has been handled, you can complain to the [Information Commissioner's Office](https://ico.org.uk/make-a-complaint/).

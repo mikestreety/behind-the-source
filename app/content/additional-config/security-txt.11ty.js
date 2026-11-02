@@ -13,7 +13,7 @@ module.exports = class {
 		expires.setFullYear(expires.getFullYear() + 1);
 
 		return [
-			'Contact: mailto:hello@behindthesource.mikestreety.co.uk',
+			'Contact: mailto:behindthesource@mikestreety.co.uk',
 			`Expires: ${expires.toISOString()}`,
 			'Preferred-Languages: en',
 			'Canonical: https://behindthesource.mikestreety.co.uk/.well-known/security.txt',
