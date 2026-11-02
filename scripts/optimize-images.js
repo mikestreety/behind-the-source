@@ -5,6 +5,10 @@ const sharp = require('sharp');
 const IMG_DIR = path.join(__dirname, '..', 'app', 'assets', 'img');
 const RASTER_EXT = new Set(['.jpg', '.jpeg', '.png']);
 
+// People photos are only ever shown at 5rem (80px), so cap the WebP at 2x that.
+const PEOPLE_DIR = path.join(IMG_DIR, 'people');
+const PEOPLE_MAX_WIDTH = 160;
+
 async function walk(dir) {
 	const entries = await fs.promises.readdir(dir, { withFileTypes: true });
 	const files = [];
@@ -36,7 +40,11 @@ async function optimize(file) {
 	await fs.promises.writeFile(file, optimized);
 
 	const webpPath = file.slice(0, -ext.length) + '.webp';
-	await image.clone().webp({ quality: 80 }).toFile(webpPath);
+	let webp = image.clone();
+	if (file.startsWith(PEOPLE_DIR + path.sep)) {
+		webp = webp.resize({ width: PEOPLE_MAX_WIDTH, withoutEnlargement: true });
+	}
+	await webp.webp({ quality: 80 }).toFile(webpPath);
 
 	console.log(`optimized ${relPath}`);
 }
